@@ -1,0 +1,5702 @@
+[
+  {
+    "id": "GS001",
+    "gameType": "guess-song",
+    "question": "Which song was BTS's debut title track?",
+    "options": [
+      "No More Dream",
+      "N.O",
+      "Boy In Luv",
+      "Danger"
+    ],
+    "correctAnswer": "No More Dream",
+    "explanation": "No More Dream is the verified answer for \"Which song was BTS's debut title track?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS002",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of O!RUL8,2??",
+    "options": [
+      "N.O",
+      "Danger",
+      "I NEED U",
+      "Run"
+    ],
+    "correctAnswer": "N.O",
+    "explanation": "N.O is the verified answer for \"Which song is the title track of O!RUL8,2??\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS003",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of SKOOL LUV AFFAIR?",
+    "options": [
+      "Boy In Luv",
+      "War of Hormone",
+      "Danger",
+      "Just One Day"
+    ],
+    "correctAnswer": "Boy In Luv",
+    "explanation": "Boy In Luv is the verified answer for \"Which song is the title track of SKOOL LUV AFFAIR?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS004",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of DARK & WILD?",
+    "options": [
+      "Danger",
+      "RUN",
+      "DNA",
+      "Fire"
+    ],
+    "correctAnswer": "Danger",
+    "explanation": "Danger is the verified answer for \"Which song is the title track of DARK & WILD?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS005",
+    "gameType": "guess-song",
+    "question": "Which song became the title track of The Most Beautiful Moment in Life Pt.1?",
+    "options": [
+      "I NEED U",
+      "Run",
+      "Fire",
+      "Save ME"
+    ],
+    "correctAnswer": "I NEED U",
+    "explanation": "I NEED U is the verified answer for \"Which song became the title track of The Most Beautiful Moment in Life Pt.1?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS006",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of The Most Beautiful Moment in Life Pt.2?",
+    "options": [
+      "Run",
+      "I NEED U",
+      "Spring Day",
+      "Blood Sweat & Tears"
+    ],
+    "correctAnswer": "Run",
+    "explanation": "Run is the verified answer for \"Which song is the title track of The Most Beautiful Moment in Life Pt.2?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS007",
+    "gameType": "guess-song",
+    "question": "Which song was the title track of The Most Beautiful Moment in Life: Young Forever?",
+    "options": [
+      "Fire",
+      "Save ME",
+      "Run",
+      "DNA"
+    ],
+    "correctAnswer": "Fire",
+    "explanation": "Fire is the verified answer for \"Which song was the title track of The Most Beautiful Moment in Life: Young Forever?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS008",
+    "gameType": "guess-song",
+    "question": "Which BTS song is the title track of WINGS?",
+    "options": [
+      "Blood Sweat & Tears",
+      "Spring Day",
+      "Not Today",
+      "Fake Love"
+    ],
+    "correctAnswer": "Blood Sweat & Tears",
+    "explanation": "Blood Sweat & Tears is the verified answer for \"Which BTS song is the title track of WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS009",
+    "gameType": "guess-song",
+    "question": "Which song was added as a title track of You Never Walk Alone?",
+    "options": [
+      "Spring Day",
+      "DNA",
+      "IDOL",
+      "Mic Drop"
+    ],
+    "correctAnswer": "Spring Day",
+    "explanation": "Spring Day is the verified answer for \"Which song was added as a title track of You Never Walk Alone?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS010",
+    "gameType": "guess-song",
+    "question": "Which song was another title track of You Never Walk Alone?",
+    "options": [
+      "Not Today",
+      "Fake Love",
+      "Fire",
+      "Run"
+    ],
+    "correctAnswer": "Not Today",
+    "explanation": "Not Today is the verified answer for \"Which song was another title track of You Never Walk Alone?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS011",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of LOVE YOURSELF 承 'Her'?",
+    "options": [
+      "DNA",
+      "Fake Love",
+      "IDOL",
+      "Boy With Luv"
+    ],
+    "correctAnswer": "DNA",
+    "explanation": "DNA is the verified answer for \"Which song is the title track of LOVE YOURSELF 承 'Her'?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS012",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of LOVE YOURSELF 轉 'Tear'?",
+    "options": [
+      "FAKE LOVE",
+      "DNA",
+      "IDOL",
+      "ON"
+    ],
+    "correctAnswer": "FAKE LOVE",
+    "explanation": "FAKE LOVE is the verified answer for \"Which song is the title track of LOVE YOURSELF 轉 'Tear'?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS013",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of LOVE YOURSELF 結 'Answer'?",
+    "options": [
+      "IDOL",
+      "DNA",
+      "FAKE LOVE",
+      "Spring Day"
+    ],
+    "correctAnswer": "IDOL",
+    "explanation": "IDOL is the verified answer for \"Which song is the title track of LOVE YOURSELF 結 'Answer'?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS014",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of MAP OF THE SOUL : PERSONA?",
+    "options": [
+      "Boy With Luv",
+      "ON",
+      "Black Swan",
+      "Dionysus"
+    ],
+    "correctAnswer": "Boy With Luv",
+    "explanation": "Boy With Luv is the verified answer for \"Which song is the title track of MAP OF THE SOUL : PERSONA?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS015",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of MAP OF THE SOUL : 7?",
+    "options": [
+      "ON",
+      "Boy With Luv",
+      "Black Swan",
+      "Life Goes On"
+    ],
+    "correctAnswer": "ON",
+    "explanation": "ON is the verified answer for \"Which song is the title track of MAP OF THE SOUL : 7?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS016",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of BE?",
+    "options": [
+      "Life Goes On",
+      "Dynamite",
+      "Butter",
+      "Permission to Dance"
+    ],
+    "correctAnswer": "Life Goes On",
+    "explanation": "Life Goes On is the verified answer for \"Which song is the title track of BE?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS017",
+    "gameType": "guess-song",
+    "question": "Which BTS song became the group's first Billboard Hot 100 No.1?",
+    "options": [
+      "Dynamite",
+      "Butter",
+      "DNA",
+      "Boy With Luv"
+    ],
+    "correctAnswer": "Dynamite",
+    "explanation": "Dynamite is the verified answer for \"Which BTS song became the group's first Billboard Hot 100 No.1?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS018",
+    "gameType": "guess-song",
+    "question": "Which song is associated with the phrase \"life goes on\" in its title?",
+    "options": [
+      "Life Goes On",
+      "Spring Day",
+      "Yet To Come",
+      "Stay Gold"
+    ],
+    "correctAnswer": "Life Goes On",
+    "explanation": "Life Goes On is the verified answer for \"Which song is associated with the phrase \"life goes on\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS019",
+    "gameType": "guess-song",
+    "question": "Which BTS song has a title referring to a genetic molecule?",
+    "options": [
+      "DNA",
+      "IDOL",
+      "ON",
+      "FIRE"
+    ],
+    "correctAnswer": "DNA",
+    "explanation": "DNA is the verified answer for \"Which BTS song has a title referring to a genetic molecule?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS020",
+    "gameType": "guess-song",
+    "question": "Which BTS song features the concept of rejecting a false version of oneself in love?",
+    "options": [
+      "Fake Love",
+      "DNA",
+      "Butter",
+      "Dynamite"
+    ],
+    "correctAnswer": "Fake Love",
+    "explanation": "Fake Love is the verified answer for \"Which BTS song features the concept of rejecting a false version of oneself in love?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS021",
+    "gameType": "guess-song",
+    "question": "Which song is strongly associated with the phrase \"Love yourself\"?",
+    "options": [
+      "Answer: Love Myself",
+      "Fire",
+      "Run",
+      "Dope"
+    ],
+    "correctAnswer": "Answer: Love Myself",
+    "explanation": "Answer: Love Myself is the verified answer for \"Which song is strongly associated with the phrase \"Love yourself\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS022",
+    "gameType": "guess-song",
+    "question": "Which BTS song is known for its coffee-related title?",
+    "options": [
+      "Coffee",
+      "Rain",
+      "Autumn Leaves",
+      "Butterfly"
+    ],
+    "correctAnswer": "Coffee",
+    "explanation": "Coffee is the verified answer for \"Which BTS song is known for its coffee-related title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS023",
+    "gameType": "guess-song",
+    "question": "Which BTS song has a title associated with a butterfly?",
+    "options": [
+      "Butterfly",
+      "Spring Day",
+      "Save ME",
+      "Begin"
+    ],
+    "correctAnswer": "Butterfly",
+    "explanation": "Butterfly is the verified answer for \"Which BTS song has a title associated with a butterfly?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS024",
+    "gameType": "guess-song",
+    "question": "Which song has a title meaning \"fire\"?",
+    "options": [
+      "Fire",
+      "Danger",
+      "Not Today",
+      "ON"
+    ],
+    "correctAnswer": "Fire",
+    "explanation": "Fire is the verified answer for \"Which song has a title meaning \"fire\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS025",
+    "gameType": "guess-song",
+    "question": "Which BTS song is famous for the phrase \"MIC Drop\" in its title?",
+    "options": [
+      "MIC Drop",
+      "Dope",
+      "Cypher Pt.4",
+      "Outro: Tear"
+    ],
+    "correctAnswer": "MIC Drop",
+    "explanation": "MIC Drop is the verified answer for \"Which BTS song is famous for the phrase \"MIC Drop\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS026",
+    "gameType": "guess-song",
+    "question": "Which song features the title \"Blood Sweat & Tears\"?",
+    "options": [
+      "Blood Sweat & Tears",
+      "Fake Love",
+      "Spring Day",
+      "Lie"
+    ],
+    "correctAnswer": "Blood Sweat & Tears",
+    "explanation": "Blood Sweat & Tears is the verified answer for \"Which song features the title \"Blood Sweat & Tears\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS027",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Spring\" in its title?",
+    "options": [
+      "Spring Day",
+      "Autumn Leaves",
+      "Winter Bear",
+      "Rain"
+    ],
+    "correctAnswer": "Spring Day",
+    "explanation": "Spring Day is the verified answer for \"Which BTS song has \"Spring\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS028",
+    "gameType": "guess-song",
+    "question": "Which song has \"Autumn\" in its title?",
+    "options": [
+      "Autumn Leaves",
+      "Spring Day",
+      "Butterfly",
+      "Rain"
+    ],
+    "correctAnswer": "Autumn Leaves",
+    "explanation": "Autumn Leaves is the verified answer for \"Which song has \"Autumn\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS029",
+    "gameType": "guess-song",
+    "question": "Which BTS song is famous for its \"Dope\" title?",
+    "options": [
+      "Dope",
+      "Fire",
+      "Boy In Luv",
+      "War of Hormone"
+    ],
+    "correctAnswer": "Dope",
+    "explanation": "Dope is the verified answer for \"Which BTS song is famous for its \"Dope\" title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS030",
+    "gameType": "guess-song",
+    "question": "Which song features the title \"Save ME\"?",
+    "options": [
+      "Save ME",
+      "I'm Fine",
+      "Hold Me Tight",
+      "Let Me Know"
+    ],
+    "correctAnswer": "Save ME",
+    "explanation": "Save ME is the verified answer for \"Which song features the title \"Save ME\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS031",
+    "gameType": "guess-song",
+    "question": "Which BTS song is the counterpart to \"Save ME\" on LOVE YOURSELF 結 'Answer'?",
+    "options": [
+      "I'm Fine",
+      "Answer: Love Myself",
+      "Magic Shop",
+      "Euphoria"
+    ],
+    "correctAnswer": "I'm Fine",
+    "explanation": "I'm Fine is the verified answer for \"Which BTS song is the counterpart to \"Save ME\" on LOVE YOURSELF 結 'Answer'?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS032",
+    "gameType": "guess-song",
+    "question": "Which BTS song is associated with a \"Magic Shop\"?",
+    "options": [
+      "Magic Shop",
+      "House of Cards",
+      "Paradise",
+      "Love Maze"
+    ],
+    "correctAnswer": "Magic Shop",
+    "explanation": "Magic Shop is the verified answer for \"Which BTS song is associated with a \"Magic Shop\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS033",
+    "gameType": "guess-song",
+    "question": "Which BTS song has a title suggesting a \"Paradise\"?",
+    "options": [
+      "Paradise",
+      "Magic Shop",
+      "Home",
+      "Jamais Vu"
+    ],
+    "correctAnswer": "Paradise",
+    "explanation": "Paradise is the verified answer for \"Which BTS song has a title suggesting a \"Paradise\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS034",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Home\" as its title?",
+    "options": [
+      "HOME",
+      "House of Cards",
+      "Butterfly",
+      "Awake"
+    ],
+    "correctAnswer": "HOME",
+    "explanation": "HOME is the verified answer for \"Which BTS song has \"Home\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS035",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"House of Cards\" as its title?",
+    "options": [
+      "House of Cards",
+      "Magic Shop",
+      "Love Maze",
+      "Rain"
+    ],
+    "correctAnswer": "House of Cards",
+    "explanation": "House of Cards is the verified answer for \"Which BTS song has \"House of Cards\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS036",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Pied Piper\"?",
+    "options": [
+      "Pied Piper",
+      "Dionysus",
+      "Anpanman",
+      "Outro: Tear"
+    ],
+    "correctAnswer": "Pied Piper",
+    "explanation": "Pied Piper is the verified answer for \"Which BTS song is titled \"Pied Piper\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS037",
+    "gameType": "guess-song",
+    "question": "Which song has a title referring to a Japanese sweet bread character?",
+    "options": [
+      "Anpanman",
+      "Airplane pt.2",
+      "Idol",
+      "Go Go"
+    ],
+    "correctAnswer": "Anpanman",
+    "explanation": "Anpanman is the verified answer for \"Which song has a title referring to a Japanese sweet bread character?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS038",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Go Go\"?",
+    "options": [
+      "Go Go",
+      "Dope",
+      "Fire",
+      "Boy With Luv"
+    ],
+    "correctAnswer": "Go Go",
+    "explanation": "Go Go is the verified answer for \"Which BTS song is titled \"Go Go\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS039",
+    "gameType": "guess-song",
+    "question": "Which BTS song has the title \"Dionysus\"?",
+    "options": [
+      "Dionysus",
+      "Persona",
+      "Black Swan",
+      "ON"
+    ],
+    "correctAnswer": "Dionysus",
+    "explanation": "Dionysus is the verified answer for \"Which BTS song has the title \"Dionysus\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS040",
+    "gameType": "guess-song",
+    "question": "Which song is about continuing despite difficulties and has \"Not Today\" in its title?",
+    "options": [
+      "Not Today",
+      "ON",
+      "Run",
+      "Fire"
+    ],
+    "correctAnswer": "Not Today",
+    "explanation": "Not Today is the verified answer for \"Which song is about continuing despite difficulties and has \"Not Today\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS041",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Boy With Luv\" in its title?",
+    "options": [
+      "Boy With Luv",
+      "Boy In Luv",
+      "Just One Day",
+      "DNA"
+    ],
+    "correctAnswer": "Boy With Luv",
+    "explanation": "Boy With Luv is the verified answer for \"Which BTS song has \"Boy With Luv\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS042",
+    "gameType": "guess-song",
+    "question": "Which song came from BTS's early school-era period and has \"Boy\" in its title?",
+    "options": [
+      "Boy In Luv",
+      "Boy With Luv",
+      "DNA",
+      "HOME"
+    ],
+    "correctAnswer": "Boy In Luv",
+    "explanation": "Boy In Luv is the verified answer for \"Which song came from BTS's early school-era period and has \"Boy\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS043",
+    "gameType": "guess-song",
+    "question": "Which song has the title \"Just One Day\"?",
+    "options": [
+      "Just One Day",
+      "One Day",
+      "Tomorrow",
+      "Rain"
+    ],
+    "correctAnswer": "Just One Day",
+    "explanation": "Just One Day is the verified answer for \"Which song has the title \"Just One Day\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS044",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Tomorrow\" as its title?",
+    "options": [
+      "Tomorrow",
+      "Yet To Come",
+      "Spring Day",
+      "Run"
+    ],
+    "correctAnswer": "Tomorrow",
+    "explanation": "Tomorrow is the verified answer for \"Which BTS song has \"Tomorrow\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS045",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Rain\"?",
+    "options": [
+      "Rain",
+      "Butterfly",
+      "Autumn Leaves",
+      "Let Me Know"
+    ],
+    "correctAnswer": "Rain",
+    "explanation": "Rain is the verified answer for \"Which BTS song is titled \"Rain\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS046",
+    "gameType": "guess-song",
+    "question": "Which song has the title \"Let Me Know\"?",
+    "options": [
+      "Let Me Know",
+      "Hold Me Tight",
+      "Rain",
+      "House of Cards"
+    ],
+    "correctAnswer": "Let Me Know",
+    "explanation": "Let Me Know is the verified answer for \"Which song has the title \"Let Me Know\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS047",
+    "gameType": "guess-song",
+    "question": "Which BTS song has the title \"Hold Me Tight\"?",
+    "options": [
+      "Hold Me Tight",
+      "Save ME",
+      "Run",
+      "Butterfly"
+    ],
+    "correctAnswer": "Hold Me Tight",
+    "explanation": "Hold Me Tight is the verified answer for \"Which BTS song has the title \"Hold Me Tight\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS048",
+    "gameType": "guess-song",
+    "question": "Which song has \"I Need U\" as its title?",
+    "options": [
+      "I NEED U",
+      "I Want U",
+      "Save ME",
+      "Let Me Know"
+    ],
+    "correctAnswer": "I NEED U",
+    "explanation": "I NEED U is the verified answer for \"Which song has \"I Need U\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS049",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Run\" as its title?",
+    "options": [
+      "Run",
+      "RUN BTS",
+      "Run Away",
+      "Tomorrow"
+    ],
+    "correctAnswer": "Run",
+    "explanation": "Run is the verified answer for \"Which BTS song has \"Run\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS050",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Danger\" as its title?",
+    "options": [
+      "Danger",
+      "Fire",
+      "Dope",
+      "Attack on Bangtan"
+    ],
+    "correctAnswer": "Danger",
+    "explanation": "Danger is the verified answer for \"Which BTS song has \"Danger\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS051",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"War of Hormone\" as its title?",
+    "options": [
+      "War of Hormone",
+      "Danger",
+      "Boy In Luv",
+      "Boy With Luv"
+    ],
+    "correctAnswer": "War of Hormone",
+    "explanation": "War of Hormone is the verified answer for \"Which BTS song has \"War of Hormone\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS052",
+    "gameType": "guess-song",
+    "question": "Which song is titled \"Attack on Bangtan\"?",
+    "options": [
+      "Attack on Bangtan",
+      "No More Dream",
+      "N.O",
+      "Dope"
+    ],
+    "correctAnswer": "Attack on Bangtan",
+    "explanation": "Attack on Bangtan is the verified answer for \"Which song is titled \"Attack on Bangtan\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS053",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"We Are Bulletproof Pt.2\" in its title?",
+    "options": [
+      "We Are Bulletproof Pt.2",
+      "We Are Bulletproof: the Eternal",
+      "No More Dream",
+      "Outro: Ego"
+    ],
+    "correctAnswer": "We Are Bulletproof Pt.2",
+    "explanation": "We Are Bulletproof Pt.2 is the verified answer for \"Which BTS song has \"We Are Bulletproof Pt.2\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS054",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"N.O\" as its title?",
+    "options": [
+      "N.O",
+      "No More Dream",
+      "Danger",
+      "Tomorrow"
+    ],
+    "correctAnswer": "N.O",
+    "explanation": "N.O is the verified answer for \"Which BTS song has \"N.O\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS055",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"No More Dream\" as its title?",
+    "options": [
+      "No More Dream",
+      "Dream On",
+      "Tomorrow",
+      "N.O"
+    ],
+    "correctAnswer": "No More Dream",
+    "explanation": "No More Dream is the verified answer for \"Which BTS song has \"No More Dream\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS056",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Butterfly\"?",
+    "options": [
+      "Butterfly",
+      "Spring Day",
+      "Serendipity",
+      "Stigma"
+    ],
+    "correctAnswer": "Butterfly",
+    "explanation": "Butterfly is the verified answer for \"Which BTS song is titled \"Butterfly\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS057",
+    "gameType": "guess-song",
+    "question": "Which solo intro belongs to Jung Kook on WINGS?",
+    "options": [
+      "Begin",
+      "Awake",
+      "Lie",
+      "Reflection"
+    ],
+    "correctAnswer": "Begin",
+    "explanation": "Begin is the verified answer for \"Which solo intro belongs to Jung Kook on WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS058",
+    "gameType": "guess-song",
+    "question": "Which solo WINGS track belongs to Jin?",
+    "options": [
+      "Awake",
+      "Begin",
+      "Lie",
+      "Stigma"
+    ],
+    "correctAnswer": "Awake",
+    "explanation": "Awake is the verified answer for \"Which solo WINGS track belongs to Jin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS059",
+    "gameType": "guess-song",
+    "question": "Which solo WINGS track belongs to Jimin?",
+    "options": [
+      "Lie",
+      "Begin",
+      "Awake",
+      "First Love"
+    ],
+    "correctAnswer": "Lie",
+    "explanation": "Lie is the verified answer for \"Which solo WINGS track belongs to Jimin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS060",
+    "gameType": "guess-song",
+    "question": "Which solo WINGS track belongs to V?",
+    "options": [
+      "Stigma",
+      "Awake",
+      "Begin",
+      "Reflection"
+    ],
+    "correctAnswer": "Stigma",
+    "explanation": "Stigma is the verified answer for \"Which solo WINGS track belongs to V?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS061",
+    "gameType": "guess-song",
+    "question": "Which solo WINGS track belongs to SUGA?",
+    "options": [
+      "First Love",
+      "MAMA",
+      "Reflection",
+      "Awake"
+    ],
+    "correctAnswer": "First Love",
+    "explanation": "First Love is the verified answer for \"Which solo WINGS track belongs to SUGA?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS062",
+    "gameType": "guess-song",
+    "question": "Which solo WINGS track belongs to j-hope?",
+    "options": [
+      "MAMA",
+      "First Love",
+      "Begin",
+      "Stigma"
+    ],
+    "correctAnswer": "MAMA",
+    "explanation": "MAMA is the verified answer for \"Which solo WINGS track belongs to j-hope?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS063",
+    "gameType": "guess-song",
+    "question": "Which solo WINGS track belongs to RM?",
+    "options": [
+      "Reflection",
+      "Awake",
+      "Lie",
+      "MAMA"
+    ],
+    "correctAnswer": "Reflection",
+    "explanation": "Reflection is the verified answer for \"Which solo WINGS track belongs to RM?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS064",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Euphoria\"?",
+    "options": [
+      "Euphoria",
+      "Serendipity",
+      "Singularity",
+      "Epiphany"
+    ],
+    "correctAnswer": "Euphoria",
+    "explanation": "Euphoria is the verified answer for \"Which BTS song is titled \"Euphoria\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS065",
+    "gameType": "guess-song",
+    "question": "Which BTS solo track is associated with Jimin in LOVE YOURSELF era?",
+    "options": [
+      "Serendipity",
+      "Euphoria",
+      "Singularity",
+      "Epiphany"
+    ],
+    "correctAnswer": "Serendipity",
+    "explanation": "Serendipity is the verified answer for \"Which BTS solo track is associated with Jimin in LOVE YOURSELF era?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS066",
+    "gameType": "guess-song",
+    "question": "Which BTS solo track is associated with V in LOVE YOURSELF era?",
+    "options": [
+      "Singularity",
+      "Serendipity",
+      "Euphoria",
+      "Epiphany"
+    ],
+    "correctAnswer": "Singularity",
+    "explanation": "Singularity is the verified answer for \"Which BTS solo track is associated with V in LOVE YOURSELF era?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS067",
+    "gameType": "guess-song",
+    "question": "Which BTS solo track is associated with Jin in LOVE YOURSELF era?",
+    "options": [
+      "Epiphany",
+      "Euphoria",
+      "Singularity",
+      "Serendipity"
+    ],
+    "correctAnswer": "Epiphany",
+    "explanation": "Epiphany is the verified answer for \"Which BTS solo track is associated with Jin in LOVE YOURSELF era?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS068",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Black Swan\" as its title?",
+    "options": [
+      "Black Swan",
+      "ON",
+      "Louder Than Bombs",
+      "Interlude: Shadow"
+    ],
+    "correctAnswer": "Black Swan",
+    "explanation": "Black Swan is the verified answer for \"Which BTS song has \"Black Swan\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS069",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Louder than Bombs\" as its title?",
+    "options": [
+      "Louder than Bombs",
+      "Black Swan",
+      "Dionysus",
+      "Jamais Vu"
+    ],
+    "correctAnswer": "Louder than Bombs",
+    "explanation": "Louder than Bombs is the verified answer for \"Which BTS song has \"Louder than Bombs\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS070",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Interlude: Shadow\"?",
+    "options": [
+      "Interlude: Shadow",
+      "Outro: Ego",
+      "Intro: Persona",
+      "Black Swan"
+    ],
+    "correctAnswer": "Interlude: Shadow",
+    "explanation": "Interlude: Shadow is the verified answer for \"Which BTS song is titled \"Interlude: Shadow\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS071",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Outro: Ego\"?",
+    "options": [
+      "Outro: Ego",
+      "Interlude: Shadow",
+      "Intro: Persona",
+      "ON"
+    ],
+    "correctAnswer": "Outro: Ego",
+    "explanation": "Outro: Ego is the verified answer for \"Which BTS song is titled \"Outro: Ego\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS072",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Filter\" as its title?",
+    "options": [
+      "Filter",
+      "My Time",
+      "Moon",
+      "Inner Child"
+    ],
+    "correctAnswer": "Filter",
+    "explanation": "Filter is the verified answer for \"Which BTS song has \"Filter\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS073",
+    "gameType": "guess-song",
+    "question": "Which BTS solo track on BE is titled \"Fly to My Room\"?",
+    "options": [
+      "Fly to My Room",
+      "Blue & Grey",
+      "Telepathy",
+      "Dis-ease"
+    ],
+    "correctAnswer": "Fly to My Room",
+    "explanation": "Fly to My Room is the verified answer for \"Which BTS solo track on BE is titled \"Fly to My Room\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS074",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Blue & Grey\" in its title?",
+    "options": [
+      "Blue & Grey",
+      "Life Goes On",
+      "Stay",
+      "Telepathy"
+    ],
+    "correctAnswer": "Blue & Grey",
+    "explanation": "Blue & Grey is the verified answer for \"Which BTS song has \"Blue & Grey\" in its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS075",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Telepathy\" as its title?",
+    "options": [
+      "Telepathy",
+      "Dis-ease",
+      "Fly to My Room",
+      "Stay"
+    ],
+    "correctAnswer": "Telepathy",
+    "explanation": "Telepathy is the verified answer for \"Which BTS song has \"Telepathy\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS076",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Dis-ease\" as its title?",
+    "options": [
+      "Dis-ease",
+      "Blue & Grey",
+      "Telepathy",
+      "Life Goes On"
+    ],
+    "correctAnswer": "Dis-ease",
+    "explanation": "Dis-ease is the verified answer for \"Which BTS song has \"Dis-ease\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS077",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Stay\" as its title on BE?",
+    "options": [
+      "Stay",
+      "Home",
+      "Answer: Love Myself",
+      "Spring Day"
+    ],
+    "correctAnswer": "Stay",
+    "explanation": "Stay is the verified answer for \"Which BTS song has \"Stay\" as its title on BE?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS078",
+    "gameType": "guess-song",
+    "question": "Which song is the title track of BTS's anthology album Proof?",
+    "options": [
+      "Yet To Come",
+      "Run BTS",
+      "For Youth",
+      "Born Singer"
+    ],
+    "correctAnswer": "Yet To Come",
+    "explanation": "Yet To Come is the verified answer for \"Which song is the title track of BTS's anthology album Proof?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS079",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Run BTS\"?",
+    "options": [
+      "Run BTS",
+      "Run",
+      "RUN BTS!",
+      "Not Today"
+    ],
+    "correctAnswer": "Run BTS",
+    "explanation": "Run BTS is the verified answer for \"Which BTS song is titled \"Run BTS\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS080",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"For Youth\"?",
+    "options": [
+      "For Youth",
+      "Young Forever",
+      "Youth",
+      "Yet To Come"
+    ],
+    "correctAnswer": "For Youth",
+    "explanation": "For Youth is the verified answer for \"Which BTS song is titled \"For Youth\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS081",
+    "gameType": "guess-song",
+    "question": "Which song is BTS's fan song associated with 2022's Proof?",
+    "options": [
+      "For Youth",
+      "Spring Day",
+      "Magic Shop",
+      "Mikrokosmos"
+    ],
+    "correctAnswer": "For Youth",
+    "explanation": "For Youth is the verified answer for \"Which song is BTS's fan song associated with 2022's Proof?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS082",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Mikrokosmos\"?",
+    "options": [
+      "Mikrokosmos",
+      "134340",
+      "Moon",
+      "Galaxy"
+    ],
+    "correctAnswer": "Mikrokosmos",
+    "explanation": "Mikrokosmos is the verified answer for \"Which BTS song is titled \"Mikrokosmos\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS083",
+    "gameType": "guess-song",
+    "question": "Which BTS song has the title \"134340\"?",
+    "options": [
+      "134340",
+      "Mikrokosmos",
+      "Moon",
+      "Pluto"
+    ],
+    "correctAnswer": "134340",
+    "explanation": "134340 is the verified answer for \"Which BTS song has the title \"134340\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS084",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Moon\"?",
+    "options": [
+      "Moon",
+      "Mikrokosmos",
+      "Stigma",
+      "Serendipity"
+    ],
+    "correctAnswer": "Moon",
+    "explanation": "Moon is the verified answer for \"Which BTS song is titled \"Moon\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS085",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Paradise\" as its title?",
+    "options": [
+      "Paradise",
+      "Home",
+      "Magic Shop",
+      "Love Maze"
+    ],
+    "correctAnswer": "Paradise",
+    "explanation": "Paradise is the verified answer for \"Which BTS song has \"Paradise\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS086",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Love Maze\" as its title?",
+    "options": [
+      "Love Maze",
+      "Paradise",
+      "Magic Shop",
+      "Pied Piper"
+    ],
+    "correctAnswer": "Love Maze",
+    "explanation": "Love Maze is the verified answer for \"Which BTS song has \"Love Maze\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS087",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Anpanman\" as its title?",
+    "options": [
+      "Anpanman",
+      "Go Go",
+      "Airplane pt.2",
+      "Dionysus"
+    ],
+    "correctAnswer": "Anpanman",
+    "explanation": "Anpanman is the verified answer for \"Which BTS song has \"Anpanman\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS088",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Airplane pt.2\" as its title?",
+    "options": [
+      "Airplane pt.2",
+      "Airplane",
+      "Anpanman",
+      "Outro: Tear"
+    ],
+    "correctAnswer": "Airplane pt.2",
+    "explanation": "Airplane pt.2 is the verified answer for \"Which BTS song has \"Airplane pt.2\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS089",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Jamais Vu\" as its title?",
+    "options": [
+      "Jamais Vu",
+      "Black Swan",
+      "HOME",
+      "Make It Right"
+    ],
+    "correctAnswer": "Jamais Vu",
+    "explanation": "Jamais Vu is the verified answer for \"Which BTS song has \"Jamais Vu\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS090",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"Make It Right\" as its title?",
+    "options": [
+      "Make It Right",
+      "Boy With Luv",
+      "HOME",
+      "Mikrokosmos"
+    ],
+    "correctAnswer": "Make It Right",
+    "explanation": "Make It Right is the verified answer for \"Which BTS song has \"Make It Right\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS091",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"I'm Fine\" as its title?",
+    "options": [
+      "I'm Fine",
+      "Save ME",
+      "Answer: Love Myself",
+      "Magic Shop"
+    ],
+    "correctAnswer": "I'm Fine",
+    "explanation": "I'm Fine is the verified answer for \"Which BTS song has \"I'm Fine\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS092",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"The Truth Untold\"?",
+    "options": [
+      "The Truth Untold",
+      "Fake Love",
+      "House of Cards",
+      "Outro: Tear"
+    ],
+    "correctAnswer": "The Truth Untold",
+    "explanation": "The Truth Untold is the verified answer for \"Which BTS song is titled \"The Truth Untold\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS093",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Outro: Tear\"?",
+    "options": [
+      "Outro: Tear",
+      "The Truth Untold",
+      "Interlude: Shadow",
+      "Outro: Ego"
+    ],
+    "correctAnswer": "Outro: Tear",
+    "explanation": "Outro: Tear is the verified answer for \"Which BTS song is titled \"Outro: Tear\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS094",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Pied Piper\"?",
+    "options": [
+      "Pied Piper",
+      "Magic Shop",
+      "Anpanman",
+      "Paradise"
+    ],
+    "correctAnswer": "Pied Piper",
+    "explanation": "Pied Piper is the verified answer for \"Which BTS song is titled \"Pied Piper\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS095",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"2! 3!\"?",
+    "options": [
+      "2! 3!",
+      "1! 2! 3!",
+      "2 Cool 4 Skool",
+      "3! 2!"
+    ],
+    "correctAnswer": "2! 3!",
+    "explanation": "2! 3! is the verified answer for \"Which BTS song is titled \"2! 3!\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS096",
+    "gameType": "guess-song",
+    "question": "Which BTS song has \"We Are Bulletproof: the Eternal\" as its title?",
+    "options": [
+      "We Are Bulletproof: the Eternal",
+      "We Are Bulletproof Pt.2",
+      "Answer: Love Myself",
+      "Young Forever"
+    ],
+    "correctAnswer": "We Are Bulletproof: the Eternal",
+    "explanation": "We Are Bulletproof: the Eternal is the verified answer for \"Which BTS song has \"We Are Bulletproof: the Eternal\" as its title?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS097",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Butter\"?",
+    "options": [
+      "Butter",
+      "Dynamite",
+      "Permission to Dance",
+      "Life Goes On"
+    ],
+    "correctAnswer": "Butter",
+    "explanation": "Butter is the verified answer for \"Which BTS song is titled \"Butter\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS098",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Permission to Dance\"?",
+    "options": [
+      "Permission to Dance",
+      "Butter",
+      "Dynamite",
+      "Boy With Luv"
+    ],
+    "correctAnswer": "Permission to Dance",
+    "explanation": "Permission to Dance is the verified answer for \"Which BTS song is titled \"Permission to Dance\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS099",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Yet To Come\"?",
+    "options": [
+      "Yet To Come",
+      "For Youth",
+      "Life Goes On",
+      "Spring Day"
+    ],
+    "correctAnswer": "Yet To Come",
+    "explanation": "Yet To Come is the verified answer for \"Which BTS song is titled \"Yet To Come\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GS100",
+    "gameType": "guess-song",
+    "question": "Which BTS song is titled \"Take Two\"?",
+    "options": [
+      "Take Two",
+      "Yet To Come",
+      "For Youth",
+      "Spring Day"
+    ],
+    "correctAnswer": "Take Two",
+    "explanation": "Take Two is the verified answer for \"Which BTS song is titled \"Take Two\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM001",
+    "gameType": "guess-member",
+    "question": "Who is BTS's leader?",
+    "options": [
+      "Jin",
+      "RM",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Who is BTS's leader?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM002",
+    "gameType": "guess-member",
+    "question": "Who is BTS's oldest member?",
+    "options": [
+      "Jin",
+      "SUGA",
+      "RM",
+      "j-hope"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Who is BTS's oldest member?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM003",
+    "gameType": "guess-member",
+    "question": "Who is BTS's youngest member?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jung Kook",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Who is BTS's youngest member?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM004",
+    "gameType": "guess-member",
+    "question": "Which member is known by the stage name RM?",
+    "options": [
+      "Kim Namjoon",
+      "Kim Seokjin",
+      "Min Yoongi",
+      "Jung Hoseok"
+    ],
+    "correctAnswer": "Kim Namjoon",
+    "explanation": "Kim Namjoon is the verified answer for \"Which member is known by the stage name RM?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM005",
+    "gameType": "guess-member",
+    "question": "Which member is known as Kim Seokjin?",
+    "options": [
+      "Jin",
+      "V",
+      "RM",
+      "Jung Kook"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is known as Kim Seokjin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM006",
+    "gameType": "guess-member",
+    "question": "Which member's birth name is Min Yoongi?",
+    "options": [
+      "SUGA",
+      "RM",
+      "j-hope",
+      "Jin"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member's birth name is Min Yoongi?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM007",
+    "gameType": "guess-member",
+    "question": "Which member's birth name is Jung Hoseok?",
+    "options": [
+      "j-hope",
+      "Jimin",
+      "V",
+      "SUGA"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member's birth name is Jung Hoseok?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM008",
+    "gameType": "guess-member",
+    "question": "Which member's birth name is Park Jimin?",
+    "options": [
+      "Jimin",
+      "Jin",
+      "V",
+      "Jung Kook"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member's birth name is Park Jimin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM009",
+    "gameType": "guess-member",
+    "question": "Which member's birth name is Kim Taehyung?",
+    "options": [
+      "V",
+      "Jin",
+      "RM",
+      "SUGA"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member's birth name is Kim Taehyung?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM010",
+    "gameType": "guess-member",
+    "question": "Which member's birth name is Jeon Jung Kook?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "V",
+      "j-hope"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member's birth name is Jeon Jung Kook?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM011",
+    "gameType": "guess-member",
+    "question": "Which member is the leader and rapper?",
+    "options": [
+      "RM",
+      "Jin",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is the leader and rapper?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM012",
+    "gameType": "guess-member",
+    "question": "Which member is known for the solo song Awake?",
+    "options": [
+      "Jin",
+      "Jimin",
+      "SUGA",
+      "V"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is known for the solo song Awake?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM013",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Begin from WINGS?",
+    "options": [
+      "Jung Kook",
+      "Jin",
+      "V",
+      "RM"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is associated with Begin from WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM014",
+    "gameType": "guess-member",
+    "question": "Which member is associated with First Love from WINGS?",
+    "options": [
+      "SUGA",
+      "j-hope",
+      "Jimin",
+      "Jin"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is associated with First Love from WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM015",
+    "gameType": "guess-member",
+    "question": "Which member is associated with MAMA from WINGS?",
+    "options": [
+      "j-hope",
+      "RM",
+      "Jin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is associated with MAMA from WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM016",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Reflection from WINGS?",
+    "options": [
+      "RM",
+      "SUGA",
+      "V",
+      "Jimin"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is associated with Reflection from WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM017",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Lie from WINGS?",
+    "options": [
+      "Jimin",
+      "Jung Kook",
+      "Jin",
+      "j-hope"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is associated with Lie from WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM018",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Stigma from WINGS?",
+    "options": [
+      "V",
+      "Jimin",
+      "RM",
+      "SUGA"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is associated with Stigma from WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM019",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Epiphany?",
+    "options": [
+      "Jin",
+      "V",
+      "Jung Kook",
+      "RM"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is associated with Epiphany?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM020",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Serendipity?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jin",
+      "SUGA"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is associated with Serendipity?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM021",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Singularity?",
+    "options": [
+      "V",
+      "Jimin",
+      "Jung Kook",
+      "RM"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is associated with Singularity?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM022",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Euphoria?",
+    "options": [
+      "Jung Kook",
+      "Jin",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is associated with Euphoria?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM023",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Intro: Persona?",
+    "options": [
+      "RM",
+      "SUGA",
+      "j-hope",
+      "Jin"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is associated with Intro: Persona?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM024",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Interlude: Shadow?",
+    "options": [
+      "SUGA",
+      "RM",
+      "V",
+      "Jung Kook"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is associated with Interlude: Shadow?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM025",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Outro: Ego?",
+    "options": [
+      "j-hope",
+      "RM",
+      "Jin",
+      "Jimin"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is associated with Outro: Ego?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM026",
+    "gameType": "guess-member",
+    "question": "Which member is known for the solo track Filter?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jung Kook",
+      "Jin"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is known for the solo track Filter?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM027",
+    "gameType": "guess-member",
+    "question": "Which member is associated with My Time?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "RM",
+      "V"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is associated with My Time?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM028",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Inner Child?",
+    "options": [
+      "V",
+      "Jin",
+      "Jimin",
+      "j-hope"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is associated with Inner Child?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM029",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Moon?",
+    "options": [
+      "Jin",
+      "V",
+      "Jung Kook",
+      "SUGA"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is associated with Moon?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM030",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Black Swan performance video?",
+    "options": [
+      "BTS as a group",
+      "Jin only",
+      "RM only",
+      "V only"
+    ],
+    "correctAnswer": "BTS as a group",
+    "explanation": "BTS as a group is the verified answer for \"Which member is associated with Black Swan performance video?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM031",
+    "gameType": "guess-member",
+    "question": "Which member is famous for the stage name j-hope?",
+    "options": [
+      "Jung Hoseok",
+      "Kim Namjoon",
+      "Min Yoongi",
+      "Park Jimin"
+    ],
+    "correctAnswer": "Jung Hoseok",
+    "explanation": "Jung Hoseok is the verified answer for \"Which member is famous for the stage name j-hope?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM032",
+    "gameType": "guess-member",
+    "question": "Which member is famous for the stage name SUGA?",
+    "options": [
+      "Min Yoongi",
+      "Kim Taehyung",
+      "Kim Seokjin",
+      "Jeon Jung Kook"
+    ],
+    "correctAnswer": "Min Yoongi",
+    "explanation": "Min Yoongi is the verified answer for \"Which member is famous for the stage name SUGA?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM033",
+    "gameType": "guess-member",
+    "question": "Which member is famous for the stage name V?",
+    "options": [
+      "Kim Taehyung",
+      "Kim Namjoon",
+      "Jung Hoseok",
+      "Park Jimin"
+    ],
+    "correctAnswer": "Kim Taehyung",
+    "explanation": "Kim Taehyung is the verified answer for \"Which member is famous for the stage name V?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM034",
+    "gameType": "guess-member",
+    "question": "Which member is famous for the stage name Jin?",
+    "options": [
+      "Kim Seokjin",
+      "Min Yoongi",
+      "Kim Taehyung",
+      "Jung Hoseok"
+    ],
+    "correctAnswer": "Kim Seokjin",
+    "explanation": "Kim Seokjin is the verified answer for \"Which member is famous for the stage name Jin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM035",
+    "gameType": "guess-member",
+    "question": "Which member is famous for the stage name Jimin?",
+    "options": [
+      "Park Jimin",
+      "Kim Namjoon",
+      "Jeon Jung Kook",
+      "Kim Seokjin"
+    ],
+    "correctAnswer": "Park Jimin",
+    "explanation": "Park Jimin is the verified answer for \"Which member is famous for the stage name Jimin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM036",
+    "gameType": "guess-member",
+    "question": "Which member is famous for the stage name Jung Kook?",
+    "options": [
+      "Jeon Jung Kook",
+      "Kim Taehyung",
+      "Min Yoongi",
+      "Park Jimin"
+    ],
+    "correctAnswer": "Jeon Jung Kook",
+    "explanation": "Jeon Jung Kook is the verified answer for \"Which member is famous for the stage name Jung Kook?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM037",
+    "gameType": "guess-member",
+    "question": "Which member is famous for the stage name RM?",
+    "options": [
+      "Kim Namjoon",
+      "Kim Seokjin",
+      "Jung Hoseok",
+      "Min Yoongi"
+    ],
+    "correctAnswer": "Kim Namjoon",
+    "explanation": "Kim Namjoon is the verified answer for \"Which member is famous for the stage name RM?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM038",
+    "gameType": "guess-member",
+    "question": "Which member is the group's youngest?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "V",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is the group's youngest?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM039",
+    "gameType": "guess-member",
+    "question": "Which member is the group's oldest?",
+    "options": [
+      "Jin",
+      "RM",
+      "SUGA",
+      "j-hope"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is the group's oldest?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM040",
+    "gameType": "guess-member",
+    "question": "Which member is BTS's leader?",
+    "options": [
+      "RM",
+      "Jin",
+      "V",
+      "Jimin"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is BTS's leader?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM041",
+    "gameType": "guess-member",
+    "question": "Which member is strongly associated with dance and performance leadership?",
+    "options": [
+      "j-hope",
+      "RM",
+      "Jin",
+      "SUGA"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is strongly associated with dance and performance leadership?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM042",
+    "gameType": "guess-member",
+    "question": "Which member is known for his deep, distinctive singing voice?",
+    "options": [
+      "V",
+      "Jimin",
+      "Jung Kook",
+      "Jin"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is known for his deep, distinctive singing voice?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM043",
+    "gameType": "guess-member",
+    "question": "Which member is known for a high, distinctive vocal tone?",
+    "options": [
+      "Jimin",
+      "V",
+      "RM",
+      "SUGA"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is known for a high, distinctive vocal tone?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM044",
+    "gameType": "guess-member",
+    "question": "Which member is part of BTS's rap line?",
+    "options": [
+      "SUGA",
+      "Jin",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is part of BTS's rap line?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM045",
+    "gameType": "guess-member",
+    "question": "Which member is part of BTS's rap line?",
+    "options": [
+      "j-hope",
+      "Jin",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is part of BTS's rap line?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM046",
+    "gameType": "guess-member",
+    "question": "Which member is part of BTS's rap line?",
+    "options": [
+      "RM",
+      "Jin",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is part of BTS's rap line?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM047",
+    "gameType": "guess-member",
+    "question": "Which member is part of BTS's vocal line?",
+    "options": [
+      "Jin",
+      "RM",
+      "SUGA",
+      "j-hope"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is part of BTS's vocal line?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM048",
+    "gameType": "guess-member",
+    "question": "Which member is part of BTS's vocal line?",
+    "options": [
+      "Jimin",
+      "RM",
+      "SUGA",
+      "j-hope"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is part of BTS's vocal line?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM049",
+    "gameType": "guess-member",
+    "question": "Which member is part of BTS's vocal line?",
+    "options": [
+      "V",
+      "RM",
+      "SUGA",
+      "j-hope"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is part of BTS's vocal line?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM050",
+    "gameType": "guess-member",
+    "question": "Which member is part of BTS's vocal line?",
+    "options": [
+      "Jung Kook",
+      "RM",
+      "SUGA",
+      "j-hope"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is part of BTS's vocal line?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM051",
+    "gameType": "guess-member",
+    "question": "Which member released the solo album FACE?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jin",
+      "RM"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member released the solo album FACE?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM052",
+    "gameType": "guess-member",
+    "question": "Which member released the solo album GOLDEN?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "V",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member released the solo album GOLDEN?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM053",
+    "gameType": "guess-member",
+    "question": "Which member released the solo album Layover?",
+    "options": [
+      "V",
+      "Jimin",
+      "Jung Kook",
+      "RM"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member released the solo album Layover?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM054",
+    "gameType": "guess-member",
+    "question": "Which member released the solo album Indigo?",
+    "options": [
+      "RM",
+      "SUGA",
+      "Jin",
+      "j-hope"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member released the solo album Indigo?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM055",
+    "gameType": "guess-member",
+    "question": "Which member released the solo album D-DAY?",
+    "options": [
+      "SUGA",
+      "RM",
+      "j-hope",
+      "Jin"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member released the solo album D-DAY?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM056",
+    "gameType": "guess-member",
+    "question": "Which member released the solo album Jack In The Box?",
+    "options": [
+      "j-hope",
+      "SUGA",
+      "RM",
+      "Jin"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member released the solo album Jack In The Box?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM057",
+    "gameType": "guess-member",
+    "question": "Which member released The Astronaut?",
+    "options": [
+      "Jin",
+      "V",
+      "Jimin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member released The Astronaut?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM058",
+    "gameType": "guess-member",
+    "question": "Which member released Like Crazy?",
+    "options": [
+      "Jimin",
+      "Jung Kook",
+      "V",
+      "RM"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member released Like Crazy?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM059",
+    "gameType": "guess-member",
+    "question": "Which member released Seven as a solo single?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "V",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member released Seven as a solo single?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM060",
+    "gameType": "guess-member",
+    "question": "Which member released Slow Dancing?",
+    "options": [
+      "V",
+      "Jimin",
+      "Jung Kook",
+      "RM"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member released Slow Dancing?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM061",
+    "gameType": "guess-member",
+    "question": "Which member released Arson?",
+    "options": [
+      "j-hope",
+      "SUGA",
+      "RM",
+      "Jin"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member released Arson?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM062",
+    "gameType": "guess-member",
+    "question": "Which member released People Pt.2 with IU?",
+    "options": [
+      "SUGA",
+      "RM",
+      "V",
+      "Jimin"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member released People Pt.2 with IU?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM063",
+    "gameType": "guess-member",
+    "question": "Which member released Wild Flower?",
+    "options": [
+      "RM",
+      "Jin",
+      "Jung Kook",
+      "j-hope"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member released Wild Flower?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM064",
+    "gameType": "guess-member",
+    "question": "Which member released Moon as a solo BTS track?",
+    "options": [
+      "Jin",
+      "V",
+      "Jimin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member released Moon as a solo BTS track?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM065",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Stigma?",
+    "options": [
+      "V",
+      "Jin",
+      "Jimin",
+      "RM"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is known for the song Stigma?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM066",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Lie?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jung Kook",
+      "Jin"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is known for the song Lie?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM067",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song First Love?",
+    "options": [
+      "SUGA",
+      "j-hope",
+      "RM",
+      "Jin"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is known for the song First Love?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM068",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song MAMA?",
+    "options": [
+      "j-hope",
+      "RM",
+      "SUGA",
+      "V"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is known for the song MAMA?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM069",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Reflection?",
+    "options": [
+      "RM",
+      "SUGA",
+      "j-hope",
+      "Jin"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is known for the song Reflection?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM070",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Begin?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "V",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is known for the song Begin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM071",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Awake?",
+    "options": [
+      "Jin",
+      "Jung Kook",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is known for the song Awake?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM072",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Persona?",
+    "options": [
+      "RM",
+      "SUGA",
+      "j-hope",
+      "Jin"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is known for the song Persona?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM073",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Shadow?",
+    "options": [
+      "SUGA",
+      "RM",
+      "V",
+      "Jimin"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is known for the song Shadow?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM074",
+    "gameType": "guess-member",
+    "question": "Which member is known for the song Ego?",
+    "options": [
+      "j-hope",
+      "Jin",
+      "Jung Kook",
+      "RM"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is known for the song Ego?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM075",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the solo track Serendipity?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is associated with the solo track Serendipity?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM076",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the solo track Singularity?",
+    "options": [
+      "V",
+      "Jimin",
+      "Jung Kook",
+      "Jin"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is associated with the solo track Singularity?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM077",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the solo track Euphoria?",
+    "options": [
+      "Jung Kook",
+      "Jin",
+      "V",
+      "Jimin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is associated with the solo track Euphoria?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM078",
+    "gameType": "guess-member",
+    "question": "Which member is associated with Epiphany?",
+    "options": [
+      "Jin",
+      "V",
+      "Jimin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is associated with Epiphany?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM079",
+    "gameType": "guess-member",
+    "question": "Which member is known as BTS's sunshine-like performer and dancer?",
+    "options": [
+      "j-hope",
+      "RM",
+      "Jin",
+      "SUGA"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is known as BTS's sunshine-like performer and dancer?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM080",
+    "gameType": "guess-member",
+    "question": "Which member is known for the nickname Worldwide Handsome?",
+    "options": [
+      "Jin",
+      "V",
+      "RM",
+      "Jung Kook"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is known for the nickname Worldwide Handsome?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM081",
+    "gameType": "guess-member",
+    "question": "Which member is known for producing and songwriting as Agust D?",
+    "options": [
+      "SUGA",
+      "RM",
+      "j-hope",
+      "Jin"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is known for producing and songwriting as Agust D?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM082",
+    "gameType": "guess-member",
+    "question": "Which member is known for the artistic persona Agust D?",
+    "options": [
+      "SUGA",
+      "V",
+      "Jimin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is known for the artistic persona Agust D?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM083",
+    "gameType": "guess-member",
+    "question": "Which member has the stage name meaning \"Hope\"?",
+    "options": [
+      "j-hope",
+      "RM",
+      "Jin",
+      "SUGA"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member has the stage name meaning \"Hope\"?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM084",
+    "gameType": "guess-member",
+    "question": "Which member is the youngest of the seven?",
+    "options": [
+      "Jung Kook",
+      "V",
+      "Jimin",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is the youngest of the seven?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM085",
+    "gameType": "guess-member",
+    "question": "Which member is the oldest of the seven?",
+    "options": [
+      "Jin",
+      "RM",
+      "SUGA",
+      "j-hope"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is the oldest of the seven?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM086",
+    "gameType": "guess-member",
+    "question": "Which member is known as Kim Namjoon?",
+    "options": [
+      "RM",
+      "Jin",
+      "V",
+      "SUGA"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is known as Kim Namjoon?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM087",
+    "gameType": "guess-member",
+    "question": "Which member is known as Min Yoongi?",
+    "options": [
+      "SUGA",
+      "RM",
+      "Jin",
+      "j-hope"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is known as Min Yoongi?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM088",
+    "gameType": "guess-member",
+    "question": "Which member is known as Jung Hoseok?",
+    "options": [
+      "j-hope",
+      "RM",
+      "Jimin",
+      "V"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is known as Jung Hoseok?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM089",
+    "gameType": "guess-member",
+    "question": "Which member is known as Park Jimin?",
+    "options": [
+      "Jimin",
+      "Jin",
+      "Jung Kook",
+      "V"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is known as Park Jimin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM090",
+    "gameType": "guess-member",
+    "question": "Which member is known as Kim Taehyung?",
+    "options": [
+      "V",
+      "Jin",
+      "RM",
+      "Jung Kook"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is known as Kim Taehyung?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM091",
+    "gameType": "guess-member",
+    "question": "Which member is known as Jeon Jung Kook?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "V",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is known as Jeon Jung Kook?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM092",
+    "gameType": "guess-member",
+    "question": "Which member is known as Kim Seokjin?",
+    "options": [
+      "Jin",
+      "RM",
+      "SUGA",
+      "j-hope"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is known as Kim Seokjin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM093",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album Indigo?",
+    "options": [
+      "RM",
+      "SUGA",
+      "j-hope",
+      "V"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member is associated with the album Indigo?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM094",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album Jack In The Box?",
+    "options": [
+      "j-hope",
+      "RM",
+      "SUGA",
+      "Jin"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member is associated with the album Jack In The Box?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM095",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album D-DAY?",
+    "options": [
+      "SUGA",
+      "RM",
+      "V",
+      "Jung Kook"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member is associated with the album D-DAY?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM096",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album FACE?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jung Kook",
+      "Jin"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is associated with the album FACE?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM097",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album Layover?",
+    "options": [
+      "V",
+      "Jimin",
+      "Jin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member is associated with the album Layover?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM098",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album GOLDEN?",
+    "options": [
+      "Jung Kook",
+      "Jimin",
+      "V",
+      "RM"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member is associated with the album GOLDEN?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM099",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album Happy?",
+    "options": [
+      "Jin",
+      "V",
+      "RM",
+      "SUGA"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member is associated with the album Happy?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GM100",
+    "gameType": "guess-member",
+    "question": "Which member is associated with the album MUSE?",
+    "options": [
+      "Jimin",
+      "Jung Kook",
+      "V",
+      "Jin"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member is associated with the album MUSE?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "EM001",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "DNA",
+      "Fire",
+      "Spring Day",
+      "IDOL"
+    ],
+    "correctAnswer": "DNA",
+    "explanation": "DNA is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🧬💜🎶"
+  },
+  {
+    "id": "EM002",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Spring Day",
+      "Butter",
+      "DNA",
+      "MIC Drop"
+    ],
+    "correctAnswer": "Spring Day",
+    "explanation": "Spring Day is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🌸🌧️💜"
+  },
+  {
+    "id": "EM003",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Fire",
+      "Fake Love",
+      "Run",
+      "HOME"
+    ],
+    "correctAnswer": "Fire",
+    "explanation": "Fire is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🔥🔥🎤"
+  },
+  {
+    "id": "EM004",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Fake Love",
+      "DNA",
+      "Butter",
+      "Dynamite"
+    ],
+    "correctAnswer": "Fake Love",
+    "explanation": "Fake Love is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎤💔🎭"
+  },
+  {
+    "id": "EM005",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Blood Sweat & Tears",
+      "Fire",
+      "IDOL",
+      "ON"
+    ],
+    "correctAnswer": "Blood Sweat & Tears",
+    "explanation": "Blood Sweat & Tears is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💧🩸😢"
+  },
+  {
+    "id": "EM006",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "MIC Drop",
+      "DNA",
+      "Run",
+      "HOME"
+    ],
+    "correctAnswer": "MIC Drop",
+    "explanation": "MIC Drop is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎙️⬇️💿"
+  },
+  {
+    "id": "EM007",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Not Today",
+      "Tomorrow",
+      "Run",
+      "Fire"
+    ],
+    "correctAnswer": "Not Today",
+    "explanation": "Not Today is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🚫📅🔥"
+  },
+  {
+    "id": "EM008",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Run",
+      "Spring Day",
+      "DNA",
+      "N.O"
+    ],
+    "correctAnswer": "Run",
+    "explanation": "Run is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🏃‍♂️💨💜"
+  },
+  {
+    "id": "EM009",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Butterfly",
+      "Spring Day",
+      "Euphoria",
+      "Save ME"
+    ],
+    "correctAnswer": "Butterfly",
+    "explanation": "Butterfly is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🦋💜🎵"
+  },
+  {
+    "id": "EM010",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Save ME",
+      "I'm Fine",
+      "HOME",
+      "Run"
+    ],
+    "correctAnswer": "Save ME",
+    "explanation": "Save ME is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🆘🙋💜"
+  },
+  {
+    "id": "EM011",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Boy With Luv",
+      "Boy In Luv",
+      "DNA",
+      "IDOL"
+    ],
+    "correctAnswer": "Boy With Luv",
+    "explanation": "Boy With Luv is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🧑🎤❤️👦"
+  },
+  {
+    "id": "EM012",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Boy In Luv",
+      "Boy With Luv",
+      "Run",
+      "HOME"
+    ],
+    "correctAnswer": "Boy In Luv",
+    "explanation": "Boy In Luv is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🧑🎓❤️🎤"
+  },
+  {
+    "id": "EM013",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "IDOL",
+      "DNA",
+      "Fake Love",
+      "Fire"
+    ],
+    "correctAnswer": "IDOL",
+    "explanation": "IDOL is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎭👑💜"
+  },
+  {
+    "id": "EM014",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "MAP OF THE SOUL",
+      "WINGS",
+      "LOVE YOURSELF",
+      "School Trilogy"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🧠🗺️🎤"
+  },
+  {
+    "id": "EM015",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE",
+      "Dark & Wild"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "💜❤️🪞"
+  },
+  {
+    "id": "EM016",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "WINGS",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "School Trilogy"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🪽🔥🖤"
+  },
+  {
+    "id": "EM017",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "School Trilogy",
+      "WINGS",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🏫🎒🎤"
+  },
+  {
+    "id": "EM018",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "School Trilogy",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "WINGS"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🧑🎤🎓💜"
+  },
+  {
+    "id": "EM019",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "DNA",
+      "Butter",
+      "Fire",
+      "IDOL"
+    ],
+    "correctAnswer": "DNA",
+    "explanation": "DNA is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💿🧬💜"
+  },
+  {
+    "id": "EM020",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Dynamite",
+      "Butter",
+      "DNA",
+      "Spring Day"
+    ],
+    "correctAnswer": "Dynamite",
+    "explanation": "Dynamite is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🕺🪩☀️"
+  },
+  {
+    "id": "EM021",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Butter",
+      "Dynamite",
+      "Permission to Dance",
+      "IDOL"
+    ],
+    "correctAnswer": "Butter",
+    "explanation": "Butter is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🧈🎤🕺"
+  },
+  {
+    "id": "EM022",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Permission to Dance",
+      "Butter",
+      "Dynamite",
+      "DNA"
+    ],
+    "correctAnswer": "Permission to Dance",
+    "explanation": "Permission to Dance is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💃🕺🎶👐"
+  },
+  {
+    "id": "EM023",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Yet To Come",
+      "Spring Day",
+      "Run",
+      "Take Two"
+    ],
+    "correctAnswer": "Yet To Come",
+    "explanation": "Yet To Come is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🕰️💜🎤"
+  },
+  {
+    "id": "EM024",
+    "gameType": "emoji",
+    "question": "What does this most directly represent?",
+    "options": [
+      "BTS's seven members",
+      "BTS's first album",
+      "ARIRANG",
+      "WINGS"
+    ],
+    "correctAnswer": "BTS's seven members",
+    "explanation": "BTS's seven members is the verified answer for \"What does this most directly represent?\".",
+    "difficulty": "medium",
+    "emojis": "👨👦👦7️⃣💜"
+  },
+  {
+    "id": "EM025",
+    "gameType": "emoji",
+    "question": "What does this most directly represent?",
+    "options": [
+      "ARMY",
+      "WINGS",
+      "DNA",
+      "BE"
+    ],
+    "correctAnswer": "ARMY",
+    "explanation": "ARMY is the verified answer for \"What does this most directly represent?\".",
+    "difficulty": "medium",
+    "emojis": "💜👥🌎"
+  },
+  {
+    "id": "EM026",
+    "gameType": "emoji",
+    "question": "What does this represent?",
+    "options": [
+      "BTS",
+      "ARMY",
+      "Dynamite",
+      "Proof"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "BTS is the verified answer for \"What does this represent?\".",
+    "difficulty": "medium",
+    "emojis": "🎤7️⃣🌟"
+  },
+  {
+    "id": "EM027",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "HOME",
+      "Magic Shop",
+      "Paradise",
+      "Love Maze"
+    ],
+    "correctAnswer": "HOME",
+    "explanation": "HOME is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🏠💜🎶"
+  },
+  {
+    "id": "EM028",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Magic Shop",
+      "HOME",
+      "Paradise",
+      "Pied Piper"
+    ],
+    "correctAnswer": "Magic Shop",
+    "explanation": "Magic Shop is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "✨🏪💜"
+  },
+  {
+    "id": "EM029",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Paradise",
+      "HOME",
+      "Magic Shop",
+      "Airplane pt.2"
+    ],
+    "correctAnswer": "Paradise",
+    "explanation": "Paradise is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🏝️🌴😌"
+  },
+  {
+    "id": "EM030",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Love Maze",
+      "Magic Shop",
+      "Paradise",
+      "Pied Piper"
+    ],
+    "correctAnswer": "Love Maze",
+    "explanation": "Love Maze is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🌀❤️🧩"
+  },
+  {
+    "id": "EM031",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Pied Piper",
+      "Dionysus",
+      "Anpanman",
+      "Go Go"
+    ],
+    "correctAnswer": "Pied Piper",
+    "explanation": "Pied Piper is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎵🐍🎹"
+  },
+  {
+    "id": "EM032",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Anpanman",
+      "Go Go",
+      "Fire",
+      "IDOL"
+    ],
+    "correctAnswer": "Anpanman",
+    "explanation": "Anpanman is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🍞🦸‍♂️💜"
+  },
+  {
+    "id": "EM033",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Go Go",
+      "Dope",
+      "Fire",
+      "MIC Drop"
+    ],
+    "correctAnswer": "Go Go",
+    "explanation": "Go Go is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💰🕺💸"
+  },
+  {
+    "id": "EM034",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Dionysus",
+      "Black Swan",
+      "ON",
+      "Persona"
+    ],
+    "correctAnswer": "Dionysus",
+    "explanation": "Dionysus is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🍷🏛️🎭"
+  },
+  {
+    "id": "EM035",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Black Swan",
+      "ON",
+      "Dionysus",
+      "Fake Love"
+    ],
+    "correctAnswer": "Black Swan",
+    "explanation": "Black Swan is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🖤🦢🎭"
+  },
+  {
+    "id": "EM036",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Louder than Bombs",
+      "Black Swan",
+      "ON",
+      "MIC Drop"
+    ],
+    "correctAnswer": "Louder than Bombs",
+    "explanation": "Louder than Bombs is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💣🔊🌑"
+  },
+  {
+    "id": "EM037",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Mikrokosmos",
+      "134340",
+      "Moon",
+      "DNA"
+    ],
+    "correctAnswer": "Mikrokosmos",
+    "explanation": "Mikrokosmos is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🌌🔭💜"
+  },
+  {
+    "id": "EM038",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "134340",
+      "Mikrokosmos",
+      "Moon",
+      "Euphoria"
+    ],
+    "correctAnswer": "134340",
+    "explanation": "134340 is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🪐❄️💜"
+  },
+  {
+    "id": "EM039",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Moon",
+      "Mikrokosmos",
+      "Euphoria",
+      "Serendipity"
+    ],
+    "correctAnswer": "Moon",
+    "explanation": "Moon is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🌙🎤💜"
+  },
+  {
+    "id": "EM040",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Euphoria",
+      "Serendipity",
+      "Epiphany",
+      "Singularity"
+    ],
+    "correctAnswer": "Euphoria",
+    "explanation": "Euphoria is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🌈😊💜"
+  },
+  {
+    "id": "EM041",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Serendipity",
+      "Euphoria",
+      "Epiphany",
+      "Moon"
+    ],
+    "correctAnswer": "Serendipity",
+    "explanation": "Serendipity is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🍀💜✨"
+  },
+  {
+    "id": "EM042",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Singularity",
+      "Serendipity",
+      "Euphoria",
+      "Epiphany"
+    ],
+    "correctAnswer": "Singularity",
+    "explanation": "Singularity is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎭🖤🎙️"
+  },
+  {
+    "id": "EM043",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Epiphany",
+      "Singularity",
+      "Euphoria",
+      "Moon"
+    ],
+    "correctAnswer": "Epiphany",
+    "explanation": "Epiphany is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🪞💡❤️"
+  },
+  {
+    "id": "EM044",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "RM",
+      "Jin",
+      "V",
+      "SUGA"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🧑🎤🧬❤️"
+  },
+  {
+    "id": "EM045",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "Jin",
+      "RM",
+      "Jimin",
+      "j-hope"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "👑🤴🎤"
+  },
+  {
+    "id": "EM046",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "SUGA",
+      "V",
+      "Jin",
+      "Jung Kook"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🎧🎹🔥"
+  },
+  {
+    "id": "EM047",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "j-hope",
+      "RM",
+      "Jin",
+      "SUGA"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "☀️🕺💃"
+  },
+  {
+    "id": "EM048",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "Jimin",
+      "V",
+      "Jin",
+      "RM"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🩰🎤✨"
+  },
+  {
+    "id": "EM049",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "V",
+      "Jimin",
+      "Jung Kook",
+      "RM"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🎨📷🎤"
+  },
+  {
+    "id": "EM050",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "Jung Kook",
+      "V",
+      "Jimin",
+      "Jin"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🐰🎤🎧"
+  },
+  {
+    "id": "EM051",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "RM",
+      "SUGA",
+      "Jin",
+      "V"
+    ],
+    "correctAnswer": "RM",
+    "explanation": "RM is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🧠🎤👑"
+  },
+  {
+    "id": "EM052",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "Jin",
+      "j-hope",
+      "Jimin",
+      "RM"
+    ],
+    "correctAnswer": "Jin",
+    "explanation": "Jin is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🍜😎🎤"
+  },
+  {
+    "id": "EM053",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "SUGA",
+      "Jin",
+      "V",
+      "Jung Kook"
+    ],
+    "correctAnswer": "SUGA",
+    "explanation": "SUGA is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🎹🎧✍️"
+  },
+  {
+    "id": "EM054",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "j-hope",
+      "Jimin",
+      "V",
+      "Jin"
+    ],
+    "correctAnswer": "j-hope",
+    "explanation": "j-hope is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🌞🕺❤️"
+  },
+  {
+    "id": "EM055",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "Jimin",
+      "Jung Kook",
+      "Jin",
+      "RM"
+    ],
+    "correctAnswer": "Jimin",
+    "explanation": "Jimin is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🩰🦋🎤"
+  },
+  {
+    "id": "EM056",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "V",
+      "Jung Kook",
+      "Jimin",
+      "SUGA"
+    ],
+    "correctAnswer": "V",
+    "explanation": "V is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🐻🎨🎤"
+  },
+  {
+    "id": "EM057",
+    "gameType": "emoji",
+    "question": "Which member?",
+    "options": [
+      "Jung Kook",
+      "V",
+      "Jin",
+      "RM"
+    ],
+    "correctAnswer": "Jung Kook",
+    "explanation": "Jung Kook is the verified answer for \"Which member?\".",
+    "difficulty": "medium",
+    "emojis": "🐰🌟🎤"
+  },
+  {
+    "id": "EM058",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "School Trilogy",
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🏫🎒7️⃣"
+  },
+  {
+    "id": "EM059",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "School Trilogy",
+      "Proof"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🌹🪞❤️"
+  },
+  {
+    "id": "EM060",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🪽🌑🔥"
+  },
+  {
+    "id": "EM061",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "WINGS",
+      "Proof"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🧠🎭🗺️"
+  },
+  {
+    "id": "EM062",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "BE",
+      "WINGS",
+      "School Trilogy",
+      "Dark & Wild"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🏠🦠🌍"
+  },
+  {
+    "id": "EM063",
+    "gameType": "emoji",
+    "question": "Which era/release?",
+    "options": [
+      "Proof",
+      "BE",
+      "WINGS",
+      "LOVE YOURSELF"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which era/release?\".",
+    "difficulty": "medium",
+    "emojis": "📚🕰️💿"
+  },
+  {
+    "id": "EM064",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Boy In Luv",
+      "Boy With Luv",
+      "DNA",
+      "Run"
+    ],
+    "correctAnswer": "Boy In Luv",
+    "explanation": "Boy In Luv is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🏫❤️🎤"
+  },
+  {
+    "id": "EM065",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Boy With Luv",
+      "Boy In Luv",
+      "Spring Day",
+      "HOME"
+    ],
+    "correctAnswer": "Boy With Luv",
+    "explanation": "Boy With Luv is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🧑🎤💞🌸"
+  },
+  {
+    "id": "EM066",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Spring Day",
+      "Save ME",
+      "Run",
+      "I'm Fine"
+    ],
+    "correctAnswer": "Spring Day",
+    "explanation": "Spring Day is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🌧️🫂💜"
+  },
+  {
+    "id": "EM067",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Save ME",
+      "I'm Fine",
+      "Fire",
+      "Not Today"
+    ],
+    "correctAnswer": "Save ME",
+    "explanation": "Save ME is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🆘❤️🙏"
+  },
+  {
+    "id": "EM068",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Permission to Dance",
+      "Butter",
+      "Dynamite",
+      "Boy With Luv"
+    ],
+    "correctAnswer": "Permission to Dance",
+    "explanation": "Permission to Dance is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "😊🌈👐"
+  },
+  {
+    "id": "EM069",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Butter",
+      "Dynamite",
+      "Permission to Dance",
+      "DNA"
+    ],
+    "correctAnswer": "Butter",
+    "explanation": "Butter is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🧈💃🕺"
+  },
+  {
+    "id": "EM070",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Dynamite",
+      "Butter",
+      "Fire",
+      "IDOL"
+    ],
+    "correctAnswer": "Dynamite",
+    "explanation": "Dynamite is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💥🪩🌟"
+  },
+  {
+    "id": "EM071",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Mikrokosmos",
+      "Moon",
+      "DNA",
+      "Spring Day"
+    ],
+    "correctAnswer": "Mikrokosmos",
+    "explanation": "Mikrokosmos is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🫶🌌🎶"
+  },
+  {
+    "id": "EM072",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Butterfly",
+      "Moon",
+      "Serendipity",
+      "Spring Day"
+    ],
+    "correctAnswer": "Butterfly",
+    "explanation": "Butterfly is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🦋🌙💜"
+  },
+  {
+    "id": "EM073",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Blood Sweat & Tears",
+      "Fake Love",
+      "Fire",
+      "Black Swan"
+    ],
+    "correctAnswer": "Blood Sweat & Tears",
+    "explanation": "Blood Sweat & Tears is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🩸💧💃"
+  },
+  {
+    "id": "EM074",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Black Swan",
+      "Blood Sweat & Tears",
+      "Fake Love",
+      "ON"
+    ],
+    "correctAnswer": "Black Swan",
+    "explanation": "Black Swan is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🖤🦢🎼"
+  },
+  {
+    "id": "EM075",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Fake Love",
+      "IDOL",
+      "DNA",
+      "Butter"
+    ],
+    "correctAnswer": "Fake Love",
+    "explanation": "Fake Love is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎭❤️🩹🪞"
+  },
+  {
+    "id": "EM076",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "IDOL",
+      "Fake Love",
+      "DNA",
+      "ON"
+    ],
+    "correctAnswer": "IDOL",
+    "explanation": "IDOL is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "👑🎭💜"
+  },
+  {
+    "id": "EM077",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Run",
+      "Spring Day",
+      "I NEED U",
+      "Not Today"
+    ],
+    "correctAnswer": "Run",
+    "explanation": "Run is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🏃‍♂️🌅💜"
+  },
+  {
+    "id": "EM078",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "I NEED U",
+      "Save ME",
+      "Run",
+      "Butterfly"
+    ],
+    "correctAnswer": "I NEED U",
+    "explanation": "I NEED U is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "😭❤️🆘"
+  },
+  {
+    "id": "EM079",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Not Today",
+      "Fire",
+      "ON",
+      "Dope"
+    ],
+    "correctAnswer": "Not Today",
+    "explanation": "Not Today is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🔥🚫🙅"
+  },
+  {
+    "id": "EM080",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "MIC Drop",
+      "Fire",
+      "Dope",
+      "Dionysus"
+    ],
+    "correctAnswer": "MIC Drop",
+    "explanation": "MIC Drop is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎤💥💧"
+  },
+  {
+    "id": "EM081",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Dope",
+      "Fire",
+      "MIC Drop",
+      "Not Today"
+    ],
+    "correctAnswer": "Dope",
+    "explanation": "Dope is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💪🧑🎤⚡"
+  },
+  {
+    "id": "EM082",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Spring Day",
+      "Yet To Come",
+      "Young Forever",
+      "Run"
+    ],
+    "correctAnswer": "Spring Day",
+    "explanation": "Spring Day is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🌱🌸⏳"
+  },
+  {
+    "id": "EM083",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Yet To Come",
+      "Spring Day",
+      "Take Two",
+      "For Youth"
+    ],
+    "correctAnswer": "Yet To Come",
+    "explanation": "Yet To Come is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🕰️🌟🔜"
+  },
+  {
+    "id": "EM084",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Take Two",
+      "2! 3!",
+      "For Youth",
+      "Young Forever"
+    ],
+    "correctAnswer": "Take Two",
+    "explanation": "Take Two is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "2️⃣👨👩👦👦💜"
+  },
+  {
+    "id": "EM085",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "For Youth",
+      "Take Two",
+      "Yet To Come",
+      "Spring Day"
+    ],
+    "correctAnswer": "For Youth",
+    "explanation": "For Youth is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🎈🎤💜"
+  },
+  {
+    "id": "EM086",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "HOME",
+      "Magic Shop",
+      "Paradise",
+      "Love Maze"
+    ],
+    "correctAnswer": "HOME",
+    "explanation": "HOME is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🫂🏠💜"
+  },
+  {
+    "id": "EM087",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Magic Shop",
+      "HOME",
+      "Paradise",
+      "Pied Piper"
+    ],
+    "correctAnswer": "Magic Shop",
+    "explanation": "Magic Shop is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🪄🚪💜"
+  },
+  {
+    "id": "EM088",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Paradise",
+      "HOME",
+      "Love Maze",
+      "Magic Shop"
+    ],
+    "correctAnswer": "Paradise",
+    "explanation": "Paradise is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🏝️🌴😎"
+  },
+  {
+    "id": "EM089",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Pied Piper",
+      "Magic Shop",
+      "Anpanman",
+      "Go Go"
+    ],
+    "correctAnswer": "Pied Piper",
+    "explanation": "Pied Piper is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🐍🎶🎤"
+  },
+  {
+    "id": "EM090",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Anpanman",
+      "Pied Piper",
+      "Go Go",
+      "IDOL"
+    ],
+    "correctAnswer": "Anpanman",
+    "explanation": "Anpanman is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🍞🦸"
+  },
+  {
+    "id": "EM091",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Go Go",
+      "Dope",
+      "Fire",
+      "MIC Drop"
+    ],
+    "correctAnswer": "Go Go",
+    "explanation": "Go Go is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "💸🕺💰"
+  },
+  {
+    "id": "EM092",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Dionysus",
+      "Black Swan",
+      "ON",
+      "IDOL"
+    ],
+    "correctAnswer": "Dionysus",
+    "explanation": "Dionysus is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🍷🏛️🎤"
+  },
+  {
+    "id": "EM093",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🧬💿7️⃣"
+  },
+  {
+    "id": "EM094",
+    "gameType": "emoji",
+    "question": "Which era?",
+    "options": [
+      "MAP OF THE SOUL : PERSONA",
+      "WINGS",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : PERSONA",
+    "explanation": "MAP OF THE SOUL : PERSONA is the verified answer for \"Which era?\".",
+    "difficulty": "medium",
+    "emojis": "🧑🎤🎭🪞"
+  },
+  {
+    "id": "EM095",
+    "gameType": "emoji",
+    "question": "Which album?",
+    "options": [
+      "BE",
+      "Proof",
+      "WINGS",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which album?\".",
+    "difficulty": "medium",
+    "emojis": "🏠🦠🎧"
+  },
+  {
+    "id": "EM096",
+    "gameType": "emoji",
+    "question": "Which album?",
+    "options": [
+      "Proof",
+      "BE",
+      "WINGS",
+      "LOVE YOURSELF 結 'Answer'"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which album?\".",
+    "difficulty": "medium",
+    "emojis": "📖🧾🎶"
+  },
+  {
+    "id": "EM097",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Dynamite",
+      "Butter",
+      "IDOL",
+      "DNA"
+    ],
+    "correctAnswer": "Dynamite",
+    "explanation": "Dynamite is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🪩💜🌟"
+  },
+  {
+    "id": "EM098",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Butter",
+      "Dynamite",
+      "Permission to Dance",
+      "DNA"
+    ],
+    "correctAnswer": "Butter",
+    "explanation": "Butter is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "🧈✨🎤"
+  },
+  {
+    "id": "EM099",
+    "gameType": "emoji",
+    "question": "Which song?",
+    "options": [
+      "Permission to Dance",
+      "Butter",
+      "Dynamite",
+      "Boy With Luv"
+    ],
+    "correctAnswer": "Permission to Dance",
+    "explanation": "Permission to Dance is the verified answer for \"Which song?\".",
+    "difficulty": "medium",
+    "emojis": "👐💃🕺🌍"
+  },
+  {
+    "id": "EM100",
+    "gameType": "emoji",
+    "question": "Who/what does this represent?",
+    "options": [
+      "BTS",
+      "ARMY",
+      "WINGS",
+      "Proof"
+    ],
+    "correctAnswer": "BTS",
+    "explanation": "BTS is the verified answer for \"Who/what does this represent?\".",
+    "difficulty": "medium",
+    "emojis": "7️⃣💜🌍🎤"
+  },
+  {
+    "id": "GE001",
+    "gameType": "guess-era",
+    "question": "Which era is associated with No More Dream?",
+    "options": [
+      "School Trilogy",
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era is associated with No More Dream?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE002",
+    "gameType": "guess-era",
+    "question": "Which era is associated with N.O?",
+    "options": [
+      "School Trilogy",
+      "LOVE YOURSELF",
+      "WINGS",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era is associated with N.O?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE003",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Boy In Luv?",
+    "options": [
+      "School Trilogy",
+      "WINGS",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era is associated with Boy In Luv?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE004",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Just One Day?",
+    "options": [
+      "School Trilogy",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "BE"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era is associated with Just One Day?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE005",
+    "gameType": "guess-era",
+    "question": "Which era contains Dark & Wild?",
+    "options": [
+      "DARK & WILD",
+      "WINGS",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "DARK & WILD",
+    "explanation": "DARK & WILD is the verified answer for \"Which era contains Dark & Wild?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE006",
+    "gameType": "guess-era",
+    "question": "Which era introduced I NEED U?",
+    "options": [
+      "The Most Beautiful Moment in Life",
+      "LOVE YOURSELF",
+      "WINGS",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "The Most Beautiful Moment in Life",
+    "explanation": "The Most Beautiful Moment in Life is the verified answer for \"Which era introduced I NEED U?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE007",
+    "gameType": "guess-era",
+    "question": "Which era introduced Run?",
+    "options": [
+      "The Most Beautiful Moment in Life",
+      "DARK & WILD",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "The Most Beautiful Moment in Life",
+    "explanation": "The Most Beautiful Moment in Life is the verified answer for \"Which era introduced Run?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE008",
+    "gameType": "guess-era",
+    "question": "Which era contains Fire?",
+    "options": [
+      "The Most Beautiful Moment in Life: Young Forever",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "The Most Beautiful Moment in Life: Young Forever",
+    "explanation": "The Most Beautiful Moment in Life: Young Forever is the verified answer for \"Which era contains Fire?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE009",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Save ME?",
+    "options": [
+      "The Most Beautiful Moment in Life: Young Forever",
+      "WINGS",
+      "MAP OF THE SOUL",
+      "Proof"
+    ],
+    "correctAnswer": "The Most Beautiful Moment in Life: Young Forever",
+    "explanation": "The Most Beautiful Moment in Life: Young Forever is the verified answer for \"Which era is associated with Save ME?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE010",
+    "gameType": "guess-era",
+    "question": "Which era contains Blood Sweat & Tears?",
+    "options": [
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE",
+      "School Trilogy"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era contains Blood Sweat & Tears?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE011",
+    "gameType": "guess-era",
+    "question": "Which era contains Spring Day?",
+    "options": [
+      "You Never Walk Alone",
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE"
+    ],
+    "correctAnswer": "You Never Walk Alone",
+    "explanation": "You Never Walk Alone is the verified answer for \"Which era contains Spring Day?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE012",
+    "gameType": "guess-era",
+    "question": "Which era contains Not Today?",
+    "options": [
+      "You Never Walk Alone",
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "You Never Walk Alone",
+    "explanation": "You Never Walk Alone is the verified answer for \"Which era contains Not Today?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE013",
+    "gameType": "guess-era",
+    "question": "Which era contains DNA?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE",
+      "School Trilogy"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era contains DNA?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE014",
+    "gameType": "guess-era",
+    "question": "Which era contains Fake Love?",
+    "options": [
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era contains Fake Love?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE015",
+    "gameType": "guess-era",
+    "question": "Which era contains IDOL?",
+    "options": [
+      "LOVE YOURSELF",
+      "School Trilogy",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era contains IDOL?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE016",
+    "gameType": "guess-era",
+    "question": "Which era contains Boy With Luv?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era contains Boy With Luv?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE017",
+    "gameType": "guess-era",
+    "question": "Which era contains Black Swan?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era contains Black Swan?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE018",
+    "gameType": "guess-era",
+    "question": "Which era contains ON?",
+    "options": [
+      "MAP OF THE SOUL",
+      "BE",
+      "Proof",
+      "WINGS"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era contains ON?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE019",
+    "gameType": "guess-era",
+    "question": "Which era contains Life Goes On?",
+    "options": [
+      "BE",
+      "Proof",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era contains Life Goes On?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE020",
+    "gameType": "guess-era",
+    "question": "Which era contains Dynamite?",
+    "options": [
+      "BE period",
+      "WINGS",
+      "School Trilogy",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "BE period",
+    "explanation": "BE period is the verified answer for \"Which era contains Dynamite?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE021",
+    "gameType": "guess-era",
+    "question": "Which era contains Butter?",
+    "options": [
+      "English-language singles period",
+      "School Trilogy",
+      "WINGS",
+      "LOVE YOURSELF"
+    ],
+    "correctAnswer": "English-language singles period",
+    "explanation": "English-language singles period is the verified answer for \"Which era contains Butter?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE022",
+    "gameType": "guess-era",
+    "question": "Which era contains Permission to Dance?",
+    "options": [
+      "English-language singles period",
+      "DARK & WILD",
+      "WINGS",
+      "School Trilogy"
+    ],
+    "correctAnswer": "English-language singles period",
+    "explanation": "English-language singles period is the verified answer for \"Which era contains Permission to Dance?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE023",
+    "gameType": "guess-era",
+    "question": "Which era contains Yet To Come?",
+    "options": [
+      "Proof",
+      "BE",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which era contains Yet To Come?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE024",
+    "gameType": "guess-era",
+    "question": "Which release is an anthology documenting BTS's history?",
+    "options": [
+      "Proof",
+      "BE",
+      "WINGS",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which release is an anthology documenting BTS's history?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE025",
+    "gameType": "guess-era",
+    "question": "Which era is strongly associated with the theme of loving oneself?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "School Trilogy",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is strongly associated with the theme of loving oneself?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE026",
+    "gameType": "guess-era",
+    "question": "Which era is strongly associated with the concept of the psyche/self?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era is strongly associated with the concept of the psyche/self?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE027",
+    "gameType": "guess-era",
+    "question": "Which era is associated with youth and its uncertainty?",
+    "options": [
+      "The Most Beautiful Moment in Life",
+      "WINGS",
+      "Proof",
+      "BE"
+    ],
+    "correctAnswer": "The Most Beautiful Moment in Life",
+    "explanation": "The Most Beautiful Moment in Life is the verified answer for \"Which era is associated with youth and its uncertainty?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE028",
+    "gameType": "guess-era",
+    "question": "Which era came directly before LOVE YOURSELF?",
+    "options": [
+      "You Never Walk Alone/WINGS period",
+      "MAP OF THE SOUL",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "You Never Walk Alone/WINGS period",
+    "explanation": "You Never Walk Alone/WINGS period is the verified answer for \"Which era came directly before LOVE YOURSELF?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE029",
+    "gameType": "guess-era",
+    "question": "Which era followed LOVE YOURSELF?",
+    "options": [
+      "MAP OF THE SOUL",
+      "WINGS",
+      "School Trilogy",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era followed LOVE YOURSELF?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE030",
+    "gameType": "guess-era",
+    "question": "Which era followed MAP OF THE SOUL?",
+    "options": [
+      "BE",
+      "Proof",
+      "LOVE YOURSELF",
+      "WINGS"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era followed MAP OF THE SOUL?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE031",
+    "gameType": "guess-era",
+    "question": "Which era followed BE as a major BTS album chapter?",
+    "options": [
+      "Proof",
+      "WINGS",
+      "School Trilogy",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which era followed BE as a major BTS album chapter?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE032",
+    "gameType": "guess-era",
+    "question": "Which era is connected with the album WINGS?",
+    "options": [
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is connected with the album WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE033",
+    "gameType": "guess-era",
+    "question": "Which era is connected with You Never Walk Alone?",
+    "options": [
+      "WINGS continuation",
+      "LOVE YOURSELF",
+      "BE",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "WINGS continuation",
+    "explanation": "WINGS continuation is the verified answer for \"Which era is connected with You Never Walk Alone?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE034",
+    "gameType": "guess-era",
+    "question": "Which era is connected with The Most Beautiful Moment in Life Pt.1?",
+    "options": [
+      "HYYH",
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE"
+    ],
+    "correctAnswer": "HYYH",
+    "explanation": "HYYH is the verified answer for \"Which era is connected with The Most Beautiful Moment in Life Pt.1?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE035",
+    "gameType": "guess-era",
+    "question": "Which era is connected with The Most Beautiful Moment in Life Pt.2?",
+    "options": [
+      "HYYH",
+      "MAP OF THE SOUL",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "HYYH",
+    "explanation": "HYYH is the verified answer for \"Which era is connected with The Most Beautiful Moment in Life Pt.2?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE036",
+    "gameType": "guess-era",
+    "question": "Which era is connected with Young Forever?",
+    "options": [
+      "HYYH",
+      "WINGS",
+      "LOVE YOURSELF",
+      "BE"
+    ],
+    "correctAnswer": "HYYH",
+    "explanation": "HYYH is the verified answer for \"Which era is connected with Young Forever?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE037",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Danger?",
+    "options": [
+      "DARK & WILD",
+      "WINGS",
+      "LOVE YOURSELF",
+      "HYYH"
+    ],
+    "correctAnswer": "DARK & WILD",
+    "explanation": "DARK & WILD is the verified answer for \"Which era is associated with Danger?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE038",
+    "gameType": "guess-era",
+    "question": "Which era is associated with War of Hormone?",
+    "options": [
+      "DARK & WILD",
+      "School Trilogy",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "DARK & WILD",
+    "explanation": "DARK & WILD is the verified answer for \"Which era is associated with War of Hormone?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE039",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Dope?",
+    "options": [
+      "HYYH",
+      "WINGS",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "HYYH",
+    "explanation": "HYYH is the verified answer for \"Which era is associated with Dope?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE040",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Butterfly?",
+    "options": [
+      "HYYH",
+      "WINGS",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "HYYH",
+    "explanation": "HYYH is the verified answer for \"Which era is associated with Butterfly?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE041",
+    "gameType": "guess-era",
+    "question": "Which era is associated with House of Cards?",
+    "options": [
+      "HYYH/Young Forever period",
+      "WINGS",
+      "MAP OF THE SOUL",
+      "BE"
+    ],
+    "correctAnswer": "HYYH/Young Forever period",
+    "explanation": "HYYH/Young Forever period is the verified answer for \"Which era is associated with House of Cards?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE042",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Fire?",
+    "options": [
+      "HYYH: Young Forever",
+      "LOVE YOURSELF",
+      "WINGS",
+      "Proof"
+    ],
+    "correctAnswer": "HYYH: Young Forever",
+    "explanation": "HYYH: Young Forever is the verified answer for \"Which era is associated with Fire?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE043",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Save ME?",
+    "options": [
+      "HYYH: Young Forever",
+      "MAP OF THE SOUL",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "HYYH: Young Forever",
+    "explanation": "HYYH: Young Forever is the verified answer for \"Which era is associated with Save ME?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE044",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Blood Sweat & Tears?",
+    "options": [
+      "WINGS",
+      "HYYH",
+      "LOVE YOURSELF",
+      "BE"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with Blood Sweat & Tears?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE045",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Awake?",
+    "options": [
+      "WINGS",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "BE"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with Awake?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE046",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Begin?",
+    "options": [
+      "WINGS",
+      "HYYH",
+      "Proof",
+      "BE"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with Begin?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE047",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Lie?",
+    "options": [
+      "WINGS",
+      "LOVE YOURSELF",
+      "School Trilogy",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with Lie?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE048",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Stigma?",
+    "options": [
+      "WINGS",
+      "BE",
+      "Proof",
+      "HYYH"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with Stigma?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE049",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Reflection?",
+    "options": [
+      "WINGS",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "BE"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with Reflection?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE050",
+    "gameType": "guess-era",
+    "question": "Which era is associated with MAMA?",
+    "options": [
+      "WINGS",
+      "HYYH",
+      "Proof",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with MAMA?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE051",
+    "gameType": "guess-era",
+    "question": "Which era is associated with First Love?",
+    "options": [
+      "WINGS",
+      "School Trilogy",
+      "LOVE YOURSELF",
+      "BE"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era is associated with First Love?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE052",
+    "gameType": "guess-era",
+    "question": "Which era is associated with DNA?",
+    "options": [
+      "LOVE YOURSELF",
+      "HYYH",
+      "WINGS",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with DNA?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE053",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Serendipity?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Serendipity?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE054",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Singularity?",
+    "options": [
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "HYYH",
+      "BE"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Singularity?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE055",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Epiphany?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE",
+      "School Trilogy"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Epiphany?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE056",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Euphoria?",
+    "options": [
+      "LOVE YOURSELF",
+      "HYYH",
+      "MAP OF THE SOUL",
+      "Proof"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Euphoria?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE057",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Magic Shop?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE",
+      "School Trilogy"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Magic Shop?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE058",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Pied Piper?",
+    "options": [
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "BE",
+      "DARK & WILD"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Pied Piper?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE059",
+    "gameType": "guess-era",
+    "question": "Which era is associated with IDOL?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "HYYH",
+      "BE"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with IDOL?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE060",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Fake Love?",
+    "options": [
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "Proof",
+      "BE"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Fake Love?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE061",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Answer: Love Myself?",
+    "options": [
+      "LOVE YOURSELF",
+      "WINGS",
+      "HYYH",
+      "School Trilogy"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is associated with Answer: Love Myself?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE062",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Persona?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era is associated with Persona?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE063",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Dionysus?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "HYYH",
+      "Proof"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era is associated with Dionysus?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE064",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Interlude: Shadow?",
+    "options": [
+      "MAP OF THE SOUL",
+      "WINGS",
+      "BE",
+      "Proof"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era is associated with Interlude: Shadow?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE065",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Outro: Ego?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "HYYH",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era is associated with Outro: Ego?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE066",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Filter?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era is associated with Filter?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE067",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Black Swan?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "WINGS",
+      "LOVE YOURSELF",
+      "Proof"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era is associated with Black Swan?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE068",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Louder than Bombs?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "BE",
+      "Proof",
+      "HYYH"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era is associated with Louder than Bombs?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE069",
+    "gameType": "guess-era",
+    "question": "Which era is associated with ON?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era is associated with ON?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE070",
+    "gameType": "guess-era",
+    "question": "Which era is associated with My Time?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "LOVE YOURSELF",
+      "HYYH",
+      "Proof"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era is associated with My Time?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE071",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Inner Child?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "WINGS",
+      "BE",
+      "HYYH"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era is associated with Inner Child?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE072",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Moon?",
+    "options": [
+      "MAP OF THE SOUL : 7",
+      "LOVE YOURSELF",
+      "Proof",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL : 7",
+    "explanation": "MAP OF THE SOUL : 7 is the verified answer for \"Which era is associated with Moon?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE073",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Life Goes On?",
+    "options": [
+      "BE",
+      "MAP OF THE SOUL",
+      "Proof",
+      "LOVE YOURSELF"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era is associated with Life Goes On?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE074",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Fly to My Room?",
+    "options": [
+      "BE",
+      "WINGS",
+      "LOVE YOURSELF",
+      "HYYH"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era is associated with Fly to My Room?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE075",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Blue & Grey?",
+    "options": [
+      "BE",
+      "Proof",
+      "MAP OF THE SOUL",
+      "WINGS"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era is associated with Blue & Grey?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE076",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Telepathy?",
+    "options": [
+      "BE",
+      "LOVE YOURSELF",
+      "HYYH",
+      "Proof"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era is associated with Telepathy?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE077",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Dis-ease?",
+    "options": [
+      "BE",
+      "WINGS",
+      "MAP OF THE SOUL",
+      "School Trilogy"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era is associated with Dis-ease?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE078",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Stay?",
+    "options": [
+      "BE",
+      "Proof",
+      "LOVE YOURSELF",
+      "HYYH"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era is associated with Stay?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE079",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Dynamite?",
+    "options": [
+      "BE-era period",
+      "WINGS",
+      "HYYH",
+      "School Trilogy"
+    ],
+    "correctAnswer": "BE-era period",
+    "explanation": "BE-era period is the verified answer for \"Which era is associated with Dynamite?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE080",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Butter?",
+    "options": [
+      "English-language singles period",
+      "HYYH",
+      "WINGS",
+      "LOVE YOURSELF"
+    ],
+    "correctAnswer": "English-language singles period",
+    "explanation": "English-language singles period is the verified answer for \"Which era is associated with Butter?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE081",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Permission to Dance?",
+    "options": [
+      "English-language singles period",
+      "MAP OF THE SOUL",
+      "BE",
+      "School Trilogy"
+    ],
+    "correctAnswer": "English-language singles period",
+    "explanation": "English-language singles period is the verified answer for \"Which era is associated with Permission to Dance?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE082",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Yet To Come?",
+    "options": [
+      "Proof",
+      "BE",
+      "LOVE YOURSELF",
+      "WINGS"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which era is associated with Yet To Come?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE083",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Run BTS?",
+    "options": [
+      "Proof",
+      "HYYH",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which era is associated with Run BTS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE084",
+    "gameType": "guess-era",
+    "question": "Which era is associated with For Youth?",
+    "options": [
+      "Proof",
+      "LOVE YOURSELF",
+      "BE",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which era is associated with For Youth?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE085",
+    "gameType": "guess-era",
+    "question": "Which era is associated with Take Two?",
+    "options": [
+      "Proof-era period",
+      "WINGS",
+      "HYYH",
+      "School Trilogy"
+    ],
+    "correctAnswer": "Proof-era period",
+    "explanation": "Proof-era period is the verified answer for \"Which era is associated with Take Two?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE086",
+    "gameType": "guess-era",
+    "question": "Which era is earliest among these?",
+    "options": [
+      "School Trilogy",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "BE"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era is earliest among these?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE087",
+    "gameType": "guess-era",
+    "question": "Which era came after DARK & WILD?",
+    "options": [
+      "The Most Beautiful Moment in Life",
+      "WINGS",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL"
+    ],
+    "correctAnswer": "The Most Beautiful Moment in Life",
+    "explanation": "The Most Beautiful Moment in Life is the verified answer for \"Which era came after DARK & WILD?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE088",
+    "gameType": "guess-era",
+    "question": "Which era came after HYYH?",
+    "options": [
+      "WINGS",
+      "BE",
+      "Proof",
+      "LOVE YOURSELF"
+    ],
+    "correctAnswer": "WINGS",
+    "explanation": "WINGS is the verified answer for \"Which era came after HYYH?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE089",
+    "gameType": "guess-era",
+    "question": "Which era came after WINGS?",
+    "options": [
+      "LOVE YOURSELF",
+      "HYYH",
+      "BE",
+      "School Trilogy"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era came after WINGS?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE090",
+    "gameType": "guess-era",
+    "question": "Which era came after LOVE YOURSELF?",
+    "options": [
+      "MAP OF THE SOUL",
+      "WINGS",
+      "HYYH",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era came after LOVE YOURSELF?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE091",
+    "gameType": "guess-era",
+    "question": "Which era came after MAP OF THE SOUL?",
+    "options": [
+      "BE",
+      "Proof",
+      "WINGS",
+      "LOVE YOURSELF"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which era came after MAP OF THE SOUL?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE092",
+    "gameType": "guess-era",
+    "question": "Which major release came after BE?",
+    "options": [
+      "Proof",
+      "WINGS",
+      "DARK & WILD",
+      "HYYH"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which major release came after BE?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE093",
+    "gameType": "guess-era",
+    "question": "Which era is most associated with school and teenage concerns?",
+    "options": [
+      "School Trilogy",
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "BE"
+    ],
+    "correctAnswer": "School Trilogy",
+    "explanation": "School Trilogy is the verified answer for \"Which era is most associated with school and teenage concerns?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE094",
+    "gameType": "guess-era",
+    "question": "Which era is most strongly associated with youth, uncertainty and growing up?",
+    "options": [
+      "HYYH",
+      "WINGS",
+      "Proof",
+      "BE"
+    ],
+    "correctAnswer": "HYYH",
+    "explanation": "HYYH is the verified answer for \"Which era is most strongly associated with youth, uncertainty and growing up?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE095",
+    "gameType": "guess-era",
+    "question": "Which era is strongly associated with self-love?",
+    "options": [
+      "LOVE YOURSELF",
+      "School Trilogy",
+      "DARK & WILD",
+      "WINGS"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era is strongly associated with self-love?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE096",
+    "gameType": "guess-era",
+    "question": "Which era explores persona, shadow and the inner self?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "HYYH",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which era explores persona, shadow and the inner self?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE097",
+    "gameType": "guess-era",
+    "question": "Which album is an anthology of BTS's history?",
+    "options": [
+      "Proof",
+      "BE",
+      "WINGS",
+      "Young Forever"
+    ],
+    "correctAnswer": "Proof",
+    "explanation": "Proof is the verified answer for \"Which album is an anthology of BTS's history?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE098",
+    "gameType": "guess-era",
+    "question": "Which release was created during the pandemic period and includes Life Goes On?",
+    "options": [
+      "BE",
+      "Proof",
+      "MAP OF THE SOUL : 7",
+      "LOVE YOURSELF 結 'Answer'"
+    ],
+    "correctAnswer": "BE",
+    "explanation": "BE is the verified answer for \"Which release was created during the pandemic period and includes Life Goes On?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE099",
+    "gameType": "guess-era",
+    "question": "Which era includes the trilogy 承 'Her', 轉 'Tear' and 結 'Answer'?",
+    "options": [
+      "LOVE YOURSELF",
+      "MAP OF THE SOUL",
+      "HYYH",
+      "WINGS"
+    ],
+    "correctAnswer": "LOVE YOURSELF",
+    "explanation": "LOVE YOURSELF is the verified answer for \"Which era includes the trilogy 承 'Her', 轉 'Tear' and 結 'Answer'?\".",
+    "difficulty": "medium"
+  },
+  {
+    "id": "GE100",
+    "gameType": "guess-era",
+    "question": "Which BTS chapter contains Persona and 7?",
+    "options": [
+      "MAP OF THE SOUL",
+      "LOVE YOURSELF",
+      "WINGS",
+      "BE"
+    ],
+    "correctAnswer": "MAP OF THE SOUL",
+    "explanation": "MAP OF THE SOUL is the verified answer for \"Which BTS chapter contains Persona and 7?\".",
+    "difficulty": "medium"
+  }
+]

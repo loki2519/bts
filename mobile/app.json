@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "BTS WORLD - ARMY Experience",
+    "slug": "bts-world",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../public/images/bts/logo.svg",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0b0410",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.btsworld.armyapp",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0410"
+      },
+      "package": "com.btsworld.armyapp",
+      "permissions": ["INTERNET"]
+    },
+    "web": {
+      "favicon": "../public/images/bts/logo.svg"
+    },
+    "scheme": "btsworld",
+    "extra": {
+      "eas": {
+        "projectId": "bts-world-army-fan-experience"
+      }
+    }
+  }
+}

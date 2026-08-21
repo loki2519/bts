@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="armyGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+    <filter id="armyFilter">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g filter="url(#armyFilter)">
+    <!-- Left Inverted Panel -->
+    <polygon points="88,45 45,52 45,148 88,155" fill="url(#armyGlow)" />
+    <!-- Right Inverted Panel -->
+    <polygon points="112,45 155,52 155,148 112,155" fill="url(#armyGlow)" />
+  </g>
+  <text x="100" y="182" font-family="'Cinzel', sans-serif" font-weight="bold" font-size="18" fill="#f472b6" text-anchor="middle" letter-spacing="4">ARMY</text>
+</svg>
