@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, ShieldCheck } from 'lucide-react';
+import { Heart, Camera } from 'lucide-react';
 
 const Footer = ({ setActiveSection }) => {
   return (
@@ -19,13 +19,17 @@ const Footer = ({ setActiveSection }) => {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 text-[11px] text-purple-400 pt-2 border-t border-purple-500/10">
-          <button onClick={() => setActiveSection('home')} className="hover:text-white transition-colors">1. Home</button>
-          <button onClick={() => setActiveSection('members')} className="hover:text-white transition-colors">3. Members</button>
-          <button onClick={() => setActiveSection('music')} className="hover:text-white transition-colors">4. Music</button>
-          <button onClick={() => setActiveSection('games')} className="hover:text-white transition-colors">7. Games</button>
-          <button onClick={() => setActiveSection('quiz')} className="hover:text-white transition-colors">8. Quiz</button>
-          <button onClick={() => setActiveSection('armycorner')} className="hover:text-white transition-colors">18. ARMY Corner</button>
-          <button onClick={() => setActiveSection('closing')} className="hover:text-white transition-colors">20. Closing</button>
+          <button onClick={() => setActiveSection('home')} className="hover:text-white transition-colors">Home</button>
+          <button onClick={() => setActiveSection('members')} className="hover:text-white transition-colors">Members</button>
+          <button onClick={() => setActiveSection('photoframe')} className="hover:text-pink-300 font-bold transition-colors flex items-center gap-1">
+            <Camera className="w-3 h-3 text-pink-400" /> Photo Frame
+          </button>
+          <button onClick={() => setActiveSection('music')} className="hover:text-white transition-colors">Music</button>
+          <button onClick={() => setActiveSection('albums')} className="hover:text-white transition-colors">Albums</button>
+          <button onClick={() => setActiveSection('games')} className="hover:text-white transition-colors">Games</button>
+          <button onClick={() => setActiveSection('quiz')} className="hover:text-white transition-colors">Quiz</button>
+          <button onClick={() => setActiveSection('puzzles')} className="hover:text-white transition-colors">Puzzles</button>
+          <button onClick={() => setActiveSection('closing')} className="hover:text-white transition-colors">Closing</button>
         </div>
       </div>
     </footer>

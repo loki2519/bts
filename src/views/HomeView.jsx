@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowRight, Play, Award, Music, Users, Calendar } from 'lucide-react';
+import { Sparkles, ArrowRight, Camera, Users } from 'lucide-react';
 import BtsImage from '../components/BtsImage';
 
 const HomeView = ({ setActiveSection }) => {
@@ -33,6 +33,13 @@ const HomeView = ({ setActiveSection }) => {
             >
               <span>EXPLORE BTS</span>
               <ArrowRight className="w-4 h-4" />
+            </button>
+            <button
+              onClick={() => setActiveSection('photoframe')}
+              className="px-8 py-3.5 rounded-xl bg-purple-950/80 border border-pink-500/50 text-pink-300 font-bold text-sm tracking-wider uppercase hover:bg-purple-900/60 hover:text-white transition-all flex items-center space-x-2 shadow-lg"
+            >
+              <Camera className="w-4 h-4 text-pink-400" />
+              <span>PHOTO WITH BTS</span>
             </button>
             <button
               onClick={() => setActiveSection('members')}
@@ -76,16 +83,17 @@ const HomeView = ({ setActiveSection }) => {
         </div>
 
         {/* Feature Highlights Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {[
-            { title: "Music & Discography", desc: "Explore iconic albums from HYYH to Map of the Soul & Proof.", target: 'music' },
-            { title: "Playable Games & Quizzes", desc: "Test your ARMY knowledge with 8 playable games and 4 quiz tiers.", target: 'games' },
-            { title: "BTS Moments & Lore", desc: "Dive into UN speeches, Wembley stadium, and the BTS Universe.", target: 'moments' }
+            { title: "BTS Photo Frame", desc: "Take a realistic photo with your favorite BTS member or OT7 group and download!", target: 'photoframe', icon: Camera },
+            { title: "Music & Discography", desc: "Explore iconic albums from HYYH to Map of the Soul & Proof.", target: 'music', icon: Sparkles },
+            { title: "Playable Games & Quizzes", desc: "Test your ARMY knowledge with 9-chance games and master quizzes.", target: 'games', icon: Sparkles },
+            { title: "BTS Moments & Lore", desc: "Dive into UN speeches, Wembley stadium, and the BTS Universe.", target: 'moments', icon: Sparkles }
           ].map((item, idx) => (
             <div
               key={idx}
               onClick={() => setActiveSection(item.target)}
-              className="p-5 rounded-2xl bg-purple-900/30 border border-purple-500/20 hover:border-purple-400/50 cursor-pointer transition-all hover:-translate-y-1"
+              className="p-5 rounded-2xl bg-purple-900/30 border border-purple-500/20 hover:border-pink-400/50 cursor-pointer transition-all hover:-translate-y-1 shadow-lg"
             >
               <h3 className="font-display font-bold text-base text-purple-200 mb-2">{item.title}</h3>
               <p className="text-xs text-purple-300/80 mb-4">{item.desc}</p>

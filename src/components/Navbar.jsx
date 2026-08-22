@@ -1,37 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
-import { Menu, X, ChevronDown, Heart, Gamepad2, Compass, Music, BookOpen, ChevronRight } from 'lucide-react';
+import { Menu, X, ChevronDown, Gamepad2, Compass, Music, BookOpen, ChevronRight, Camera, Sparkles } from 'lucide-react';
 
 const SECTIONS = [
   { id: 'home', label: 'HOME / BTS WORLD' },
   { id: 'bts', label: 'BTS OVERVIEW' },
   { id: 'members', label: 'MEMBERS' },
+  { id: 'photoframe', label: 'BTS PHOTO FRAME' },
   { id: 'music', label: 'MUSIC' },
   { id: 'albums', label: 'ALBUMS' },
   { id: 'moments', label: 'BTS MOMENTS' },
   { id: 'games', label: 'GAMES' },
   { id: 'quiz', label: 'QUIZ' },
   { id: 'puzzles', label: 'PUZZLES' },
-  { id: 'fanzone', label: 'FAN ZONE' },
   { id: 'timeline', label: 'TIMELINE' },
   { id: 'gallery', label: 'GALLERY' },
   { id: 'achievements', label: 'ACHIEVEMENTS' },
-  { id: 'messagewall', label: 'MESSAGE WALL' },
-  { id: 'favorites', label: 'FAVORITES' },
   { id: 'funfacts', label: 'FUN FACTS' },
   { id: 'btsuniverse', label: 'BOOK ON BTS' },
   { id: 'poem', label: 'POEM ON BTS' },
-  { id: 'armycorner', label: 'ARMY CORNER' },
   { id: 'musicexperience', label: 'MUSIC EXPERIENCE' },
   { id: 'closing', label: 'CLOSING' }
 ];
 
 const CATEGORIES = [
   { name: 'Core World', icon: Compass, items: ['home', 'bts', 'members', 'achievements', 'closing'] },
+  { name: 'Photo Frame', icon: Camera, items: ['photoframe'] },
   { name: 'Music & Media', icon: Music, items: ['music', 'albums', 'gallery', 'musicexperience'] },
   { name: 'Timeline & Lore', icon: BookOpen, items: ['moments', 'timeline', 'funfacts', 'btsuniverse', 'poem'] },
-  { name: 'Games & Puzzles', icon: Gamepad2, items: ['games', 'quiz', 'puzzles'] },
-  { name: 'ARMY Community', icon: Heart, items: ['fanzone', 'messagewall', 'favorites', 'armycorner'] }
+  { name: 'Games & Puzzles', icon: Gamepad2, items: ['games', 'quiz', 'puzzles'] }
 ];
 
 /* ─────────────────────────────────────────────
@@ -48,19 +45,18 @@ const MobileDrawer = ({ activeSection, onNavigate, onClose }) => {
   }, []);
 
   return createPortal(
-    /* Full-screen container — z-[99999] ensures it sits above every other element */
     <div
       className="fixed inset-0 flex"
       style={{ zIndex: 99999 }}
     >
-      {/* ── Semi-transparent RIGHT-SIDE BACKDROP (page content faintly visible) ── */}
+      {/* Semi-transparent RIGHT-SIDE BACKDROP */}
       <div
         className="absolute inset-0 bg-black/60 backdrop-blur-[2px]"
         onClick={onClose}
         aria-label="Close menu"
       />
 
-      {/* ── LEFT HALF-SCREEN DRAWER PANEL ── */}
+      {/* LEFT HALF-SCREEN DRAWER PANEL */}
       <div
         className="relative flex flex-col w-[72vw] max-w-[300px] h-full"
         style={{
@@ -91,49 +87,67 @@ const MobileDrawer = ({ activeSection, onNavigate, onClose }) => {
           {CATEGORIES.map((cat, catIdx) => {
             const Icon = cat.icon;
             const isCatActive = cat.items.includes(activeSection);
-            const isExpanded = expandedCat === catIdx;
+            const isExpanded = expandedCat === catIdx || (cat.items.length === 1 && isCatActive);
 
             return (
               <div key={cat.name}>
-                {/* Category row */}
-                <button
-                  onClick={() => setExpandedCat(isExpanded ? null : catIdx)}
-                  className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-[11px] font-extrabold uppercase tracking-wide transition-all border ${
-                    isCatActive
-                      ? 'bg-purple-700/60 text-pink-300 border-purple-400/50'
-                      : 'bg-purple-950/60 text-purple-300 border-purple-600/20 hover:bg-purple-900/50'
-                  }`}
-                >
-                  <span className="flex items-center gap-1.5">
-                    <Icon className="w-3.5 h-3.5 text-pink-400 flex-shrink-0" />
-                    {cat.name}
-                  </span>
-                  <ChevronRight className={`w-3.5 h-3.5 transition-transform duration-200 ${isExpanded ? 'rotate-90 text-pink-400' : 'text-purple-500'}`} />
-                </button>
+                {/* Direct link if single item category */}
+                {cat.items.length === 1 ? (
+                  <button
+                    onClick={() => onNavigate(cat.items[0])}
+                    className={`w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-[11px] font-extrabold uppercase tracking-wide transition-all border ${
+                      activeSection === cat.items[0]
+                        ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white border-pink-400 shadow-md font-black'
+                        : 'bg-purple-950/60 text-purple-300 border-purple-600/20 hover:bg-purple-900/50'
+                    }`}
+                  >
+                    <span className="flex items-center gap-1.5">
+                      <Icon className="w-3.5 h-3.5 text-pink-400 flex-shrink-0" />
+                      {cat.name}
+                    </span>
+                    {activeSection === cat.items[0] && <span className="w-1.5 h-1.5 rounded-full bg-white shrink-0 animate-pulse" />}
+                  </button>
+                ) : (
+                  <>
+                    <button
+                      onClick={() => setExpandedCat(isExpanded ? null : catIdx)}
+                      className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-[11px] font-extrabold uppercase tracking-wide transition-all border ${
+                        isCatActive
+                          ? 'bg-purple-700/60 text-pink-300 border-purple-400/50'
+                          : 'bg-purple-950/60 text-purple-300 border-purple-600/20 hover:bg-purple-900/50'
+                      }`}
+                    >
+                      <span className="flex items-center gap-1.5">
+                        <Icon className="w-3.5 h-3.5 text-pink-400 flex-shrink-0" />
+                        {cat.name}
+                      </span>
+                      <ChevronRight className={`w-3.5 h-3.5 transition-transform duration-200 ${isExpanded ? 'rotate-90 text-pink-400' : 'text-purple-500'}`} />
+                    </button>
 
-                {/* Section items */}
-                {isExpanded && (
-                  <div className="mt-1 ml-2 space-y-1">
-                    {cat.items.map((secId) => {
-                      const sec = SECTIONS.find(s => s.id === secId);
-                      if (!sec) return null;
-                      const isActive = activeSection === sec.id;
-                      return (
-                        <button
-                          key={sec.id}
-                          onClick={() => onNavigate(sec.id)}
-                          className={`w-full text-left px-3 py-2 rounded-lg text-[11px] font-bold tracking-wide transition-all flex items-center justify-between border ${
-                            isActive
-                              ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white border-pink-500/60 shadow-md shadow-purple-900/50 font-black'
-                              : 'bg-purple-900/30 text-purple-200 border-purple-500/10 hover:bg-purple-800/50 hover:text-white'
-                          }`}
-                        >
-                          {sec.label}
-                          {isActive && <span className="w-1.5 h-1.5 rounded-full bg-white shrink-0 animate-pulse" />}
-                        </button>
-                      );
-                    })}
-                  </div>
+                    {isExpanded && (
+                      <div className="mt-1 ml-2 space-y-1">
+                        {cat.items.map((secId) => {
+                          const sec = SECTIONS.find(s => s.id === secId);
+                          if (!sec) return null;
+                          const isActive = activeSection === sec.id;
+                          return (
+                            <button
+                              key={sec.id}
+                              onClick={() => onNavigate(sec.id)}
+                              className={`w-full text-left px-3 py-2 rounded-lg text-[11px] font-bold tracking-wide transition-all flex items-center justify-between border ${
+                                isActive
+                                  ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white border-pink-500/60 shadow-md shadow-purple-900/50 font-black'
+                                  : 'bg-purple-900/30 text-purple-200 border-purple-500/10 hover:bg-purple-800/50 hover:text-white'
+                              }`}
+                            >
+                              {sec.label}
+                              {isActive && <span className="w-1.5 h-1.5 rounded-full bg-white shrink-0 animate-pulse" />}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
             );
@@ -183,7 +197,6 @@ const Navbar = ({ activeSection, setActiveSection }) => {
         style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.35rem)' }}
       >
         <div className="w-full px-3 sm:px-4 lg:px-6">
-
           {/* TOP ROW: Logo + desktop nav */}
           <div className="flex items-center justify-between">
             {/* Logo */}
@@ -210,6 +223,24 @@ const Navbar = ({ activeSection, setActiveSection }) => {
                 const Icon = cat.icon;
                 const isCatActive = cat.items.includes(activeSection);
                 const isOpen = activeDropdown === idx;
+
+                if (cat.items.length === 1) {
+                  return (
+                    <button
+                      key={cat.name}
+                      onClick={() => handleNavClick(cat.items[0])}
+                      className={`flex items-center space-x-2 px-3.5 py-2 rounded-xl text-xs font-bold tracking-wide transition-all border ${
+                        activeSection === cat.items[0]
+                          ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white border-pink-400 shadow-md'
+                          : 'text-purple-200/90 border-transparent hover:text-white hover:bg-purple-900/50'
+                      }`}
+                    >
+                      <Icon className="w-4 h-4 text-pink-400" />
+                      <span>{cat.name}</span>
+                    </button>
+                  );
+                }
+
                 return (
                   <div
                     key={cat.name}
@@ -290,11 +321,10 @@ const Navbar = ({ activeSection, setActiveSection }) => {
               {SECTIONS.find(s => s.id === activeSection)?.label || 'HOME'}
             </div>
           </div>
-
         </div>
       </header>
 
-      {/* Mobile Drawer rendered via portal — above EVERYTHING including the header */}
+      {/* Mobile Drawer rendered via portal */}
       {mobileMenuOpen && (
         <MobileDrawer
           activeSection={activeSection}

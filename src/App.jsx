@@ -13,22 +13,19 @@ import LoginView from './views/LoginView';
 import HomeView from './views/HomeView';
 import BtsView from './views/BtsView';
 import MembersView from './views/MembersView';
+import PhotoFrameView from './views/PhotoFrameView';
 import MusicView from './views/MusicView';
 import AlbumsView from './views/AlbumsView';
 import MomentsView from './views/MomentsView';
 import GamesView from './views/GamesView';
 import QuizView from './views/QuizView';
 import PuzzlesView from './views/PuzzlesView';
-import FanZoneView from './views/FanZoneView';
 import TimelineView from './views/TimelineView';
 import GalleryView from './views/GalleryView';
 import AchievementsView from './views/AchievementsView';
-import MessageWallView from './views/MessageWallView';
-import FavoritesView from './views/FavoritesView';
 import FunFactsView from './views/FunFactsView';
 import BtsUniverseView from './views/BtsUniverseView';
 import PoemView from './views/PoemView';
-import ArmyCornerView from './views/ArmyCornerView';
 import MusicExpView from './views/MusicExpView';
 import ClosingView from './views/ClosingView';
 
@@ -93,22 +90,19 @@ const AppContent = () => {
             {activeSection === 'home' && <HomeView setActiveSection={setActiveSection} />}
             {activeSection === 'bts' && <BtsView />}
             {activeSection === 'members' && <MembersView />}
+            {activeSection === 'photoframe' && <PhotoFrameView />}
             {activeSection === 'music' && <MusicView />}
             {activeSection === 'albums' && <AlbumsView />}
             {activeSection === 'moments' && <MomentsView />}
             {activeSection === 'games' && <GamesView />}
             {activeSection === 'quiz' && <QuizView />}
             {activeSection === 'puzzles' && <PuzzlesView />}
-            {activeSection === 'fanzone' && <FanZoneView />}
             {activeSection === 'timeline' && <TimelineView />}
             {activeSection === 'gallery' && <GalleryView />}
             {activeSection === 'achievements' && <AchievementsView />}
-            {activeSection === 'messagewall' && <MessageWallView />}
-            {activeSection === 'favorites' && <FavoritesView setActiveSection={setActiveSection} />}
             {activeSection === 'funfacts' && <FunFactsView />}
             {activeSection === 'btsuniverse' && <BtsUniverseView />}
             {activeSection === 'poem' && <PoemView />}
-            {activeSection === 'armycorner' && <ArmyCornerView />}
             {activeSection === 'musicexperience' && <MusicExpView />}
             {activeSection === 'closing' && <ClosingView onReplay={handleReplay} />}
           </main>
