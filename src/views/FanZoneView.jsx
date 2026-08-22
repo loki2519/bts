@@ -220,6 +220,15 @@ const FanZoneView = () => {
     // Cache locally as secondary backup
     const localKey = `bts_fan_profile_${userId}`;
     localStorage.setItem(localKey, JSON.stringify(profileData));
+    // Keep the Favorites screen in sync immediately, including offline use.
+    localStorage.setItem('bts_fan_favorites', JSON.stringify({
+      favMember,
+      favSong,
+      favAlbum,
+      favEra,
+      displayName,
+      bio
+    }));
 
     if (saveSuccessful) {
       setSavedSuccess(true);

@@ -18,7 +18,7 @@ const MusicView = () => {
           BTS Music World
         </h1>
         <p className="text-purple-300/80 text-sm max-w-2xl mx-auto">
-          Explore iconic BTS tracks and stream audio in the global music player.
+          Explore iconic BTS tracks in the BTS World audio player.
         </p>
       </div>
 

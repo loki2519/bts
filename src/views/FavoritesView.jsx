@@ -1,16 +1,44 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, Star, Disc, User, Music, Gamepad2 } from 'lucide-react';
+import { supabase } from '../lib/supabase';
 
 const FavoritesView = ({ setActiveSection }) => {
   const [favorites, setFavorites] = useState(null);
 
   useEffect(() => {
-    const saved = localStorage.getItem('bts_fan_favorites');
-    if (saved) {
-      try {
-        setFavorites(JSON.parse(saved));
-      } catch (e) {}
-    }
+    let active = true;
+
+    const loadFavorites = async () => {
+      const saved = localStorage.getItem('bts_fan_favorites');
+      if (saved && active) {
+        try { setFavorites(JSON.parse(saved)); } catch (e) {}
+      }
+
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user || !active) return;
+
+      const { data: profile } = await supabase
+        .from('fan_profiles')
+        .select('display_name, favorite_member, favorite_song, favorite_album, favorite_era, bio')
+        .eq('user_id', user.id)
+        .maybeSingle();
+
+      if (profile && active) {
+        const syncedFavorites = {
+          favMember: profile.favorite_member,
+          favSong: profile.favorite_song,
+          favAlbum: profile.favorite_album,
+          favEra: profile.favorite_era,
+          displayName: profile.display_name,
+          bio: profile.bio
+        };
+        localStorage.setItem('bts_fan_favorites', JSON.stringify(syncedFavorites));
+        setFavorites(syncedFavorites);
+      }
+    };
+
+    loadFavorites().catch(() => {});
+    return () => { active = false; };
   }, []);
 
   return (
@@ -23,7 +51,7 @@ const FavoritesView = ({ setActiveSection }) => {
           Saved ARMY Favorites
         </h1>
         <p className="text-purple-300/80 text-sm">
-          Your saved personal choices in the BTS World (stored locally in browser).
+          Your Fan Zone choices, synced from Supabase when you are signed in.
         </p>
       </div>
 

@@ -27,6 +27,17 @@ html, body, #root {
   }
 }
 
+@keyframes find-card-shuffle {
+  0% { transform: translate(0, 0) rotate(0deg) scale(1); }
+  45% { transform: translate(var(--shuffle-x), var(--shuffle-y)) rotate(14deg) scale(0.92); }
+  100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+}
+
+.find-card-shuffling {
+  animation: find-card-shuffle 0.65s cubic-bezier(.2, .85, .25, 1) both;
+  animation-delay: var(--shuffle-delay);
+}
+
 /* Reduced motion respect */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {

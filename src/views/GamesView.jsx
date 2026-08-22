@@ -22,7 +22,20 @@ const GAMES_LIST = [
   { id: 5, name: "COMPLETE THE LYRIC", desc: "Fill in missing words from famous BTS anthems", bankName: "lyric" },
   { id: 6, name: "GUESS THE ERA", desc: "100 Master Questions • 5 Questions Per Round", bank: GUESS_ERA_BANK, bankName: "guess-era" },
   { id: 7, name: "ALBUM MATCHING", desc: "Match tracks to their correct album home", bankName: "album" },
-  { id: 8, name: "BTS WORD SCRAMBLE", desc: "Unscramble mixed member names & BTS terms", bankName: "scramble" }
+  { id: 8, name: "BTS WORD SCRAMBLE", desc: "Unscramble mixed member names & BTS terms", bankName: "scramble" },
+  { id: 9, name: "FIND THE BTS CARD", desc: "Find the requested card from 9 shuffled BTS circles", bankName: "find-card" }
+];
+
+const FIND_CARD_DECK = [
+  { name: 'RM', image: '/images/bts/member_rm.jpg' },
+  { name: 'Jin', image: '/images/bts/member_jin.jpg' },
+  { name: 'SUGA', image: '/images/bts/member_suga.jpg' },
+  { name: 'j-hope', image: '/images/bts/member_jhope.jpg' },
+  { name: 'Jimin', image: '/images/bts/member_jimin.jpg' },
+  { name: 'V', image: '/images/bts/member_v.jpg' },
+  { name: 'Jung Kook', image: '/images/bts/member_jungkook.jpg' },
+  { name: 'BTS Group', image: '/images/bts/group_hero.jpg' },
+  { name: 'I LOVE BTS', text: true }
 ];
 
 const MEMBER_DECK_SYMBOLS = [
@@ -72,6 +85,11 @@ const GamesView = () => {
 
   // Scramble Specific State
   const [scrambleInput, setScrambleInput] = useState('');
+  const [findCards, setFindCards] = useState([]);
+  const [findTarget, setFindTarget] = useState(null);
+  const [findFeedback, setFindFeedback] = useState('');
+  const [findFlipped, setFindFlipped] = useState(null);
+  const [findShuffling, setFindShuffling] = useState(false);
 
   const triggerConfetti = () => {
     try { confetti({ particleCount: 90, spread: 80, origin: { y: 0.6 } }); } catch (e) {}
@@ -103,6 +121,15 @@ const GamesView = () => {
     });
   };
 
+  const startFindRound = () => {
+    const target = FIND_CARD_DECK[Math.floor(Math.random() * FIND_CARD_DECK.length)];
+    setFindTarget(target);
+    setFindCards(shuffleArray(FIND_CARD_DECK));
+    setFindFeedback('');
+    setFindFlipped(null);
+    setFindShuffling(false);
+  };
+
   const startGame = (gameId) => {
     const gameConfig = GAMES_LIST.find(g => g.id === gameId);
     setActiveGameId(gameId);
@@ -122,6 +149,8 @@ const GamesView = () => {
       setFlippedIndices([]);
       setMatchedPairs([]);
       setMoves(0);
+    } else if (gameId === 9) {
+      startFindRound();
     } else if (gameConfig && gameConfig.bank) {
       // 100-Question Master Bank Random 5 Selection
       const selected5 = select5RandomQuestions(gameConfig.bank, gameConfig.bankName);
@@ -145,6 +174,19 @@ const GamesView = () => {
 
       setRoundQuestions(randomized);
     }
+  };
+
+  const handleFindCard = (card) => {
+    if (!findTarget || findFeedback) return;
+    const isCorrect = card.name === findTarget.name;
+    setFindFlipped(card.name);
+    setFindFeedback(isCorrect ? 'CORRECT! SHUFFLING A NEW ROUND…' : `NOT ${findTarget.name}. SHUFFLING A NEW ROUND…`);
+    if (isCorrect) {
+      setScore((value) => value + 1);
+      triggerConfetti();
+    }
+    window.setTimeout(() => setFindShuffling(true), 500);
+    window.setTimeout(startFindRound, 1250);
   };
 
   const resetCurrentGame = () => {
@@ -267,7 +309,7 @@ const GamesView = () => {
                 {GAMES_LIST.find((g) => g.id === activeGameId)?.name}
               </span>
               <div className="text-xs text-purple-300">
-                SCORE: <span className="font-bold text-pink-400 text-sm">{score} / {activeGameId === 3 ? 5 : roundQuestions.length}</span>
+                SCORE: <span className="font-bold text-pink-400 text-sm">{activeGameId === 9 ? score : `${score} / ${activeGameId === 3 ? 5 : roundQuestions.length}`}</span>
               </div>
             </div>
             <div className="flex items-center space-x-2">
@@ -365,8 +407,52 @@ const GamesView = () => {
                 </div>
               )}
 
+              {/* GAME 9: FIND THE BTS CARD */}
+              {activeGameId === 9 && findTarget && (
+                <div className="space-y-6 text-center">
+                  <div className="p-5 rounded-2xl bg-purple-900/40 border border-purple-400/40 space-y-1">
+                    <div className="text-[10px] font-black tracking-[0.2em] text-pink-400 uppercase">Find the card of</div>
+                    <div className="font-display text-2xl sm:text-3xl font-black text-purple-100">{findTarget.name}</div>
+                    <p className="text-xs text-purple-300">Every choice reshuffles all nine cards and starts a new random question.</p>
+                  </div>
+                  <div className="grid grid-cols-3 gap-3 sm:gap-5 max-w-2xl mx-auto">
+                    {findCards.map((card, index) => {
+                      const isFlipped = findFlipped === card.name;
+                      return (
+                      <div
+                        key={`${card.name}-${index}`}
+                        className={`aspect-square ${findShuffling ? 'find-card-shuffling' : ''}`}
+                        style={{ '--shuffle-delay': `${index * 70}ms`, '--shuffle-x': `${(index % 3 - 1) * 42}px`, '--shuffle-y': `${(Math.floor(index / 3) - 1) * 32}px` }}
+                      >
+                      <button
+                        onClick={() => handleFindCard(card)}
+                        disabled={Boolean(findFeedback)}
+                        className="w-full h-full rounded-full focus:outline-none focus:ring-4 focus:ring-pink-400/40"
+                        aria-label={`Choose ${card.name} card`}
+                        style={{ perspective: '900px' }}
+                      >
+                        <span className="relative block w-full h-full transition-transform duration-500" style={{ transformStyle: 'preserve-3d', transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0deg)' }}>
+                          <span className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-950 via-indigo-900 to-fuchsia-800 border-2 border-purple-500/60 shadow-xl shadow-purple-950/70 flex items-center justify-center" style={{ backfaceVisibility: 'hidden' }}>
+                            <img src="/images/bts/logo.svg" alt="BTS card back" className="w-1/2 h-1/2 object-contain opacity-90" />
+                          </span>
+                          <span className="absolute inset-0 rounded-full overflow-hidden bg-purple-950 border-2 border-pink-400" style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
+                            {card.text ? (
+                              <span className="w-full h-full flex items-center justify-center p-3 bg-gradient-to-br from-purple-600 via-fuchsia-600 to-pink-600 font-display text-sm sm:text-xl font-black text-white leading-tight">I<br />LOVE<br />BTS</span>
+                            ) : (
+                              <BtsImage src={card.image} alt={card.name} className={`w-full h-full object-cover ${card.name === 'BTS Group' ? 'object-center' : 'object-[50%_18%]'}`} fallbackTitle={card.name} />
+                            )}
+                          </span>
+                        </span>
+                      </button>
+                      </div>
+                    )})}
+                  </div>
+                  {findFeedback && <div className="text-sm font-black text-pink-300 animate-pulse">{findFeedback}</div>}
+                </div>
+              )}
+
               {/* GAME 1, 2, 4, 5, 6, 7: 5 QUESTIONS PER ROUND */}
-              {activeGameId !== 3 && activeGameId !== 8 && roundQuestions[currentIndex] && (
+              {activeGameId !== 3 && activeGameId !== 8 && activeGameId !== 9 && roundQuestions[currentIndex] && (
                 <div className="space-y-6">
                   <div className="text-xs font-black text-purple-400 tracking-wider">
                     QUESTION {currentIndex + 1} / {roundQuestions.length}

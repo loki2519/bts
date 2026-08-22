@@ -23,7 +23,7 @@ const AlbumsView = () => {
           BTS Album Gallery & Music Player
         </h1>
         <p className="text-purple-300/80 text-sm max-w-2xl mx-auto">
-          Explore official discography concept art and play complete album tracklists in the global player.
+          Explore the discography and play licensed audio stored directly in BTS World.
         </p>
       </div>
 
@@ -79,7 +79,7 @@ const AlbumsView = () => {
                   onClick={() => setSelectedAlbum(album)}
                   className="w-full mt-3 py-2.5 rounded-xl bg-purple-900/60 hover:bg-purple-800 border border-purple-400/30 text-purple-100 font-bold text-xs tracking-wider uppercase transition-all flex items-center justify-center space-x-1.5 group-hover:bg-gradient-to-r group-hover:from-purple-600 group-hover:to-pink-600"
                 >
-                  <span>Explore & Play Tracks</span>
+                  <span>Explore Tracks</span>
                   <ListMusic className="w-3.5 h-3.5" />
                 </button>
               </div>

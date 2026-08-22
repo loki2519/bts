@@ -3,20 +3,21 @@ import fs from 'fs';
 import path from 'path';
 
 const ip = '10.207.229.108';
+const port = 3000;
 const expoUrl = `exp://${ip}:8081`;
-const webUrl = `http://${ip}:5173`;
+const webUrl = `http://${ip}:${port}`;
+const localhostUrl = `http://localhost:${port}`;
 
 const artifactDir = 'C:/Users/maddi/.gemini/antigravity/brain/3368ef3f-c12f-48a9-8006-f66b25209e11';
 const publicDir = 'c:/Users/maddi/Desktop/bts/public/images';
 
 async function generateQRCodes() {
   console.log("==================================================");
-  console.log("   BTS WORLD — EXPO & MOBILE QR CODE GENERATOR   ");
+  console.log("   BTS WORLD — LOCALHOST & MOBILE QR CODE        ");
   console.log("==================================================");
+  console.log(`Localhost URL:  ${localhostUrl}`);
+  console.log(`Network URL:    ${webUrl}`);
   console.log(`Expo Go URL:    ${expoUrl}`);
-  console.log(`Mobile Web URL: ${webUrl}`);
-  console.log("--------------------------------------------------");
-  console.log("Scan this QR Code with Expo Go (Android/iOS) or Camera:");
   console.log("--------------------------------------------------");
 
   // 1. Generate ASCII QR for terminal
@@ -33,7 +34,6 @@ async function generateQRCodes() {
     width: 400,
     margin: 2
   });
-  console.log(`Saved PNG QR Code to: ${artifactPngPath}`);
 
   // 3. Generate PNG in public directory
   if (!fs.existsSync(publicDir)) {
@@ -48,16 +48,9 @@ async function generateQRCodes() {
     width: 400,
     margin: 2
   });
-  console.log(`Saved public PNG QR Code to: ${publicPngPath}`);
-
-  // 4. Generate SVG string
-  const svgString = await QRCode.toString(webUrl, { type: 'svg' });
-  const svgPath = path.join(publicDir, 'expo_qr.svg');
-  fs.writeFileSync(svgPath, svgString, 'utf8');
-  console.log(`Saved public SVG QR Code to: ${svgPath}`);
 
   console.log("==================================================");
-  console.log("QR Code generation completed successfully!");
+  console.log("QR Code regenerated for port 3000!");
 }
 
 generateQRCodes();
