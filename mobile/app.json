@@ -22,11 +22,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0b0410"
       },
-      "permissions": ["INTERNET"]
+      "permissions": [
+        "INTERNET"
+      ]
     },
     "web": {
       "favicon": "./assets/icon.png"
     },
-    "scheme": "btsworld"
+    "scheme": "btsworld",
+    "extra": {
+      "eas": {
+        "projectId": "34388753-9062-4e5d-bd73-2de33666f568"
+      }
+    },
+    "owner": "sandyloc"
   }
 }
