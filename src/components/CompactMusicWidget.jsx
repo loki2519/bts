@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useMusic } from '../context/MusicContext';
-import { Play, Pause, SkipForward, SkipBack, X, Volume2, VolumeX, Sparkles } from 'lucide-react';
+import { Play, Pause, SkipForward, SkipBack, X, Volume2, VolumeX } from 'lucide-react';
 import BtsImage from './BtsImage';
 
 function formatTime(seconds) {
@@ -28,23 +28,54 @@ const CompactMusicWidget = () => {
     dismissWidget
   } = useMusic();
 
+  const [headerTop, setHeaderTop] = useState(90);
+  const widgetRef = useRef(null);
+
+  // Dynamically compute exact bottom position of header so widget is ALWAYS perfectly flush below it on all devices
+  useEffect(() => {
+    const updatePosition = () => {
+      const headerEl = document.querySelector('header');
+      if (headerEl) {
+        const rect = headerEl.getBoundingClientRect();
+        setHeaderTop(rect.bottom);
+      } else {
+        setHeaderTop(window.innerWidth < 1024 ? 92 : 64);
+      }
+    };
+
+    updatePosition();
+    window.addEventListener('resize', updatePosition);
+    window.addEventListener('scroll', updatePosition);
+
+    const observer = new MutationObserver(updatePosition);
+    const headerEl = document.querySelector('header');
+    if (headerEl) observer.observe(headerEl, { attributes: true, childList: true, subtree: true });
+
+    return () => {
+      window.removeEventListener('resize', updatePosition);
+      window.removeEventListener('scroll', updatePosition);
+      observer.disconnect();
+    };
+  }, [isWidgetActive]);
+
   if (!isWidgetActive || !currentTrack) return null;
 
   return (
     <div
+      ref={widgetRef}
       id="bts-compact-music-widget"
-      className="fixed left-0 right-0 z-30 bg-[#16062c]/95 border-b border-purple-500/40 backdrop-blur-xl shadow-xl shadow-purple-950/80 text-white animate-fade-in transition-all"
+      className="fixed left-0 right-0 z-30 bg-[#140526]/95 border-b border-purple-500/40 backdrop-blur-xl shadow-xl shadow-purple-950/80 text-white animate-fade-in transition-all duration-150"
       style={{
-        top: 'calc(env(safe-area-inset-top) + 4.25rem)'
+        top: `${headerTop}px`
       }}
       role="region"
       aria-label="Active BTS Music Widget"
     >
-      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-2 flex items-center justify-between gap-2 sm:gap-4">
+      <div className="max-w-7xl mx-auto px-2.5 sm:px-4 lg:px-6 py-1.5 sm:py-2 flex items-center justify-between gap-1.5 sm:gap-4">
         
         {/* LEFT: Rotating Album Cover & Track Details */}
-        <div className="flex items-center space-x-2.5 min-w-0 flex-shrink">
-          <div className="relative w-9 h-9 sm:w-10 sm:h-10 flex-shrink-0">
+        <div className="flex items-center space-x-2 sm:space-x-3 min-w-0 flex-shrink">
+          <div className="relative w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
             <div className={`w-full h-full rounded-full overflow-hidden border-2 border-pink-400 shadow-md ${isPlaying ? 'animate-spin-slow' : ''}`}>
               <BtsImage
                 src={currentAlbumCover}
@@ -56,19 +87,19 @@ const CompactMusicWidget = () => {
             <div className="absolute inset-0 rounded-full border border-white/20 pointer-events-none"></div>
           </div>
 
-          <div className="min-w-0 max-w-[120px] sm:max-w-[200px] md:max-w-xs">
-            <h4 className="font-display font-bold text-xs text-purple-100 truncate leading-tight">
+          <div className="min-w-0 max-w-[100px] xs:max-w-[130px] sm:max-w-[200px] md:max-w-xs">
+            <h4 className="font-display font-black text-[11px] sm:text-xs text-purple-100 truncate leading-tight">
               {currentTrack.title}
             </h4>
-            <p className="text-[10px] text-purple-300/80 truncate font-semibold">
+            <p className="text-[9px] sm:text-[10px] text-purple-300/80 truncate font-bold">
               <span className="text-pink-400">BTS</span> • {currentAlbumName}
             </p>
           </div>
         </div>
 
         {/* CENTER: Playback Controls & Progress Bar */}
-        <div className="flex flex-col items-center flex-1 max-w-xl px-1 sm:px-4">
-          <div className="flex items-center space-x-3 sm:space-x-4">
+        <div className="flex flex-col items-center flex-1 max-w-lg px-1 sm:px-4">
+          <div className="flex items-center space-x-2.5 sm:space-x-4">
             <button
               onClick={prevTrack}
               className="p-1 text-purple-300 hover:text-white rounded-full transition-colors active:scale-95"
@@ -80,7 +111,7 @@ const CompactMusicWidget = () => {
 
             <button
               onClick={togglePlay}
-              className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white flex items-center justify-center shadow-md hover:scale-105 active:scale-95 transition-all"
+              className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 text-white flex items-center justify-center shadow-md hover:scale-105 active:scale-95 transition-all flex-shrink-0"
               title={isPlaying ? "Pause" : "Play"}
               aria-label={isPlaying ? "Pause" : "Play"}
             >
@@ -98,7 +129,7 @@ const CompactMusicWidget = () => {
           </div>
 
           {/* Scrub Progress Bar */}
-          <div className="w-full flex items-center space-x-2 text-[9px] sm:text-[10px] font-mono text-purple-300 mt-0.5">
+          <div className="w-full flex items-center space-x-1.5 sm:space-x-2 text-[8px] sm:text-[10px] font-mono text-purple-300 mt-0.5">
             <span className="hidden xs:inline">{formatTime(currentTime)}</span>
             <input
               type="range"
@@ -114,7 +145,7 @@ const CompactMusicWidget = () => {
         </div>
 
         {/* RIGHT: Volume & Clear Close X Button */}
-        <div className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
+        <div className="flex items-center space-x-1.5 sm:space-x-3 flex-shrink-0">
           {/* Desktop Volume Slider */}
           <div className="hidden md:flex items-center space-x-1.5">
             <button
@@ -138,7 +169,7 @@ const CompactMusicWidget = () => {
           {/* Close/Stop X Button */}
           <button
             onClick={dismissWidget}
-            className="p-1.5 rounded-lg bg-purple-900/60 hover:bg-rose-950 border border-purple-400/30 hover:border-rose-400/50 text-purple-200 hover:text-rose-200 transition-all active:scale-90"
+            className="p-1.5 rounded-lg bg-purple-900/70 hover:bg-rose-950 border border-purple-400/30 hover:border-rose-400/50 text-purple-200 hover:text-rose-200 transition-all active:scale-90"
             title="Stop Music & Close Widget"
             aria-label="Close and stop music"
           >

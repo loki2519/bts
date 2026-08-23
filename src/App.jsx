@@ -34,10 +34,33 @@ const AppContent = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const { isWidgetActive, stopMusicImmediately } = useMusic();
+  const [mainPaddingTop, setMainPaddingTop] = useState(110);
+
+  const showCompactWidget = isWidgetActive && activeSection !== 'albums';
+
+  // Measure exact combined header + widget offset so NO content is ever overlapped on phones or desktops
+  useEffect(() => {
+    const updatePadding = () => {
+      const headerEl = document.querySelector('header');
+      const widgetEl = document.getElementById('bts-compact-music-widget');
+
+      const headerH = headerEl ? headerEl.getBoundingClientRect().height : (window.innerWidth < 1024 ? 92 : 64);
+      const widgetH = (showCompactWidget && widgetEl) ? widgetEl.getBoundingClientRect().height : (showCompactWidget ? 54 : 0);
+
+      setMainPaddingTop(headerH + widgetH + 16);
+    };
+
+    updatePadding();
+    const timer = setTimeout(updatePadding, 50);
+    window.addEventListener('resize', updatePadding);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('resize', updatePadding);
+    };
+  }, [showCompactWidget, activeSection]);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    // Music continues playing across pages when user navigates
   }, [activeSection]);
 
   const handleLoginSuccess = () => {
@@ -50,8 +73,6 @@ const AppContent = () => {
     setIsLoggedIn(false);
     setActiveSection('home');
   };
-
-  const showCompactWidget = isWidgetActive && activeSection !== 'albums';
 
   return (
     <div className="relative min-h-screen bg-[#0b0410] text-slate-100 flex flex-col justify-between selection:bg-purple-600 selection:text-white transition-colors duration-300">
@@ -69,24 +90,22 @@ const AppContent = () => {
           {/* Top Navigation */}
           <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
 
-          {/* Compact Music Widget - Fixed below header on non-album pages while music is active */}
+          {/* Compact Music Widget - Positioned dynamically below header on non-album pages */}
           {showCompactWidget && <CompactMusicWidget />}
 
-          {/* Main Content Area - Dynamically accounts for header and active music widget height */}
+          {/* Main Content Area - Fully padded dynamically with zero overlap */}
           <main
-            className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-2 sm:px-4 lg:px-6 pb-24 transition-all duration-300"
+            className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-2.5 sm:px-4 lg:px-6 pb-24 transition-all duration-200"
             style={{
-              paddingTop: showCompactWidget
-                ? 'calc(env(safe-area-inset-top) + 11.25rem)'
-                : 'calc(env(safe-area-inset-top) + 6.75rem)'
+              paddingTop: `calc(env(safe-area-inset-top) + ${mainPaddingTop}px)`
             }}
           >
             {/* Universal BACK TO HOME Button Positioned Cleanly Below Header */}
             {activeSection !== 'home' && (
-              <div className="mt-1 mb-6 flex items-center justify-start animate-fade-in">
+              <div className="mt-1 mb-5 flex items-center justify-start animate-fade-in">
                 <button
                   onClick={() => setActiveSection('home')}
-                  className="px-4 py-2 rounded-xl bg-purple-950/90 border border-purple-500/50 text-purple-200 hover:text-white hover:bg-purple-800 text-xs font-black tracking-wider uppercase transition-all flex items-center space-x-2 shadow-xl shadow-purple-950/90"
+                  className="px-3.5 py-1.5 rounded-xl bg-purple-950/90 border border-purple-500/50 text-purple-200 hover:text-white hover:bg-purple-800 text-xs font-black tracking-wider uppercase transition-all flex items-center space-x-2 shadow-xl shadow-purple-950/90 active:scale-95"
                 >
                   <ArrowLeft className="w-4 h-4 text-pink-400" />
                   <span>BACK TO HOME</span>
