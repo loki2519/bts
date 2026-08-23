@@ -12,8 +12,8 @@ import {
 import { WebView } from 'react-native-webview';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 
-// 100% Free, Public, Zero-Password Global GitHub Pages Cloud URL
-const BTS_WORLD_URL = 'https://loki2519.github.io/bts/';
+// Production Cloud URL (Vercel) — 100% Free, Public, Zero-Password Global CDN
+const BTS_WORLD_URL = 'https://bts-bice.vercel.app';
 
 export default function App() {
   const webViewRef = useRef(null);
