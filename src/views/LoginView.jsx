@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Heart, ArrowRight, Sparkles } from 'lucide-react';
+import { Heart, ArrowRight } from 'lucide-react';
 import BtsImage from '../components/BtsImage';
 
 // Negative, sad, vulgar, offensive, toxic, or profane word list
@@ -63,7 +63,7 @@ const LoginView = ({ onLoginSuccess }) => {
     const trimmed = heartfulWord.trim();
 
     if (!isHeartfulWordValid(trimmed)) {
-      setErrorMsg('Sorry, please enter heartful word to enter BTS World 💜');
+      setErrorMsg('sorry please enter heartful word to enter bts world');
       return;
     }
 
@@ -131,7 +131,7 @@ const LoginView = ({ onLoginSuccess }) => {
                 setHeartfulWord(event.target.value);
                 setErrorMsg('');
               }}
-              placeholder="e.g. Borahae, Love, Hope, Army, Eternal..."
+              placeholder="any heartful word"
               className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-purple-100 text-sm focus:outline-none focus:border-pink-400 font-semibold placeholder:text-purple-400/50"
               autoFocus
             />
