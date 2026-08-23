@@ -13,7 +13,7 @@ import { WebView } from 'react-native-webview';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 
 // Standalone Production Cloud URL — Does not depend on localhost, Vite server, or computer IP
-const BTS_WORLD_URL = 'https://hilarious-praline-a9fc1f.netlify.app';
+const BTS_WORLD_URL = 'https://graceful-pothos-221f2e.netlify.app';
 
 export default function App() {
   const webViewRef = useRef(null);
