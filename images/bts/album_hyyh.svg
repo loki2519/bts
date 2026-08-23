@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_album_hyyh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg_album_hyyh)" />
+  <rect width="380" height="380" x="10" y="10" fill="none" stroke="#34d399" stroke-width="2" opacity="0.3" rx="16" />
+  <g transform="translate(0, 10)">
+    <circle cx="200" cy="180" r="70" fill="none" stroke="#a7f3d0" stroke-width="6" /><path d="M200 110 L200 250 M130 180 L270 180" stroke="#a7f3d0" stroke-width="6" />
+  </g>
+  <text x="200" y="325" font-family="'Cinzel', serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">HYYH</text>
+  <text x="200" y="352" font-family="sans-serif" font-weight="700" font-size="12" fill="#34d399" text-anchor="middle" letter-spacing="6">YOUNG FOREVER</text>
+</svg>
