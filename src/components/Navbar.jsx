@@ -191,27 +191,32 @@ const Navbar = ({ activeSection, setActiveSection }) => {
       <header
         className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
           scrolled
-            ? 'bg-[#0f051c]/98 border-b border-purple-500/30 shadow-xl shadow-purple-950/80 py-2 backdrop-blur-md'
-            : 'bg-[#0f051c]/95 py-2.5 border-b border-purple-900/40 backdrop-blur-sm'
+            ? 'bg-[#0f051c]/98 border-b border-purple-500/30 shadow-xl shadow-purple-950/80 py-2 sm:py-2.5 backdrop-blur-md'
+            : 'bg-[#0f051c]/95 py-2.5 sm:py-3 border-b border-purple-900/40 backdrop-blur-sm'
         }`}
-        style={{ paddingTop: 'calc(env(safe-area-inset-top) + 0.35rem)' }}
+        style={{ paddingTop: 'max(env(safe-area-inset-top), 0.5rem)' }}
       >
         <div className="w-full px-3 sm:px-4 lg:px-6">
-          {/* TOP ROW: Logo + desktop nav */}
+          {/* TOP ROW: Logo + title + desktop nav */}
           <div className="flex items-center justify-between">
-            {/* Logo */}
+            {/* Logo + Title Group */}
             <div
               onClick={() => handleNavClick('home')}
-              className="flex items-center space-x-2 cursor-pointer group flex-shrink-0"
+              className="flex items-center gap-2.5 sm:gap-3.5 cursor-pointer group flex-shrink-0"
             >
-              <div className="w-10 h-10 sm:w-14 sm:h-14 p-0.5 flex items-center justify-center group-hover:scale-105 transition-transform">
-                <img src="/images/bts/logo.svg" alt="BTS Logo" className="w-full h-full object-contain filter drop-shadow-[0_0_14px_rgba(192,132,252,0.9)]" />
+              <div className="w-9 h-9 sm:w-12 sm:h-12 flex-shrink-0 flex items-center justify-center group-hover:scale-105 transition-transform">
+                <img
+                  src="./images/bts/logo.svg"
+                  alt="BTS Logo"
+                  className="w-full h-full object-contain filter drop-shadow-[0_0_12px_rgba(192,132,252,0.9)]"
+                  onError={(e) => { e.currentTarget.src = '/images/bts/logo.svg'; }}
+                />
               </div>
-              <div className="flex flex-col justify-center">
-                <span className="font-display font-black text-xl sm:text-3xl tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-purple-100 via-purple-200 to-pink-300 leading-none">
+              <div className="flex flex-col justify-center select-none">
+                <span className="font-display font-black text-xl sm:text-2xl lg:text-3xl tracking-widest text-white leading-tight drop-shadow-[0_2px_8px_rgba(192,132,252,0.6)]">
                   BTS WORLD
                 </span>
-                <span className="text-[9px] sm:text-xs tracking-widest uppercase font-sans text-purple-300/90 font-extrabold leading-tight mt-0.5">
+                <span className="text-[9px] sm:text-xs tracking-widest uppercase font-sans text-purple-300 font-extrabold leading-none mt-0.5">
                   ARMY FAN EXPERIENCE
                 </span>
               </div>
