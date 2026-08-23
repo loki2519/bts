@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Heart, ArrowRight } from 'lucide-react';
+import { Heart, ArrowRight, CheckCircle, Sparkles } from 'lucide-react';
 import BtsImage from '../components/BtsImage';
 
 // Negative, sad, vulgar, offensive, toxic, or profane word list
@@ -56,9 +56,12 @@ function isHeartfulWordValid(input) {
 
 const LoginView = ({ onLoginSuccess }) => {
   const [heartfulWord, setHeartfulWord] = useState('');
+  const [memberName, setMemberName] = useState('');
+  const [step, setStep] = useState(1); // 1 = Heartful Word, 2 = Member Name
   const [errorMsg, setErrorMsg] = useState('');
 
-  const handleLoginSubmit = (event) => {
+  // Step 1: Validate heartful word on BTS
+  const handleHeartfulSubmit = (event) => {
     event.preventDefault();
     const trimmed = heartfulWord.trim();
 
@@ -67,9 +70,23 @@ const LoginView = ({ onLoginSuccess }) => {
       return;
     }
 
+    setErrorMsg('');
+    setStep(2);
+  };
+
+  // Step 2: Choose favorite BTS member name
+  const handleMemberSubmit = (event) => {
+    event.preventDefault();
+    const selectedMember = memberName.trim();
+    if (!selectedMember) {
+      setErrorMsg('Please enter a BTS member name.');
+      return;
+    }
+
     localStorage.setItem('bts_user_account', JSON.stringify({
-      id: trimmed.toLowerCase(),
-      heartfulWord: trimmed,
+      id: heartfulWord.trim().toLowerCase(),
+      heartfulWord: heartfulWord.trim(),
+      favoriteMember: selectedMember,
       role: 'user'
     }));
     onLoginSuccess();
@@ -104,7 +121,7 @@ const LoginView = ({ onLoginSuccess }) => {
               BTS WORLD
             </h1>
             <p className="text-xs text-purple-300/90 tracking-widest uppercase mt-1 font-bold">
-              FAN ACCESS
+              {step === 1 ? 'FAN ACCESS' : 'CHOOSE YOUR BTS MEMBER'}
             </p>
           </div>
         </div>
@@ -116,35 +133,72 @@ const LoginView = ({ onLoginSuccess }) => {
           </div>
         )}
 
-        {/* Form to enter heartfelt word */}
-        <form onSubmit={handleLoginSubmit} className="space-y-4">
-          <div>
-            <label className="block text-xs font-black text-purple-200 uppercase mb-1.5 flex items-center gap-1.5 tracking-wider">
-              <Heart className="w-3.5 h-3.5 text-pink-400 fill-pink-400" />
-              <span>HEARTFUL WORD ON BTS</span>
-            </label>
-            <input
-              type="text"
-              required
-              value={heartfulWord}
-              onChange={(event) => {
-                setHeartfulWord(event.target.value);
-                setErrorMsg('');
-              }}
-              placeholder="any heartful word"
-              className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-purple-100 text-sm focus:outline-none focus:border-pink-400 font-semibold placeholder:text-purple-400/50"
-              autoFocus
-            />
-          </div>
+        {step === 1 ? (
+          /* STEP 1: Heartful Word on BTS */
+          <form onSubmit={handleHeartfulSubmit} className="space-y-4">
+            <div>
+              <label className="block text-xs font-black text-purple-200 uppercase mb-1.5 flex items-center gap-1.5 tracking-wider">
+                <Heart className="w-3.5 h-3.5 text-pink-400 fill-pink-400" />
+                <span>HEARTFUL WORD ON BTS</span>
+              </label>
+              <input
+                type="text"
+                required
+                value={heartfulWord}
+                onChange={(event) => {
+                  setHeartfulWord(event.target.value);
+                  setErrorMsg('');
+                }}
+                placeholder="any heartful word"
+                className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-purple-100 text-sm focus:outline-none focus:border-pink-400 font-semibold placeholder:text-purple-400/50"
+                autoFocus
+              />
+            </div>
 
-          <button
-            type="submit"
-            className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 text-white font-black text-xs uppercase tracking-widest shadow-lg shadow-purple-600/40 hover:scale-[1.02] active:scale-98 transition-all flex items-center justify-center space-x-2"
-          >
-            <span>ENTER THE BTS WORLD</span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
-        </form>
+            <button
+              type="submit"
+              className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 text-white font-black text-xs uppercase tracking-widest shadow-lg shadow-purple-600/40 hover:scale-[1.02] active:scale-98 transition-all flex items-center justify-center space-x-2"
+            >
+              <span>ENTER THE BTS WORLD</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </form>
+        ) : (
+          /* STEP 2: Choose Favorite Member Name */
+          <form onSubmit={handleMemberSubmit} className="space-y-4">
+            <div className="p-3 rounded-xl bg-purple-900/50 border border-purple-500/30 text-xs text-purple-200 flex items-center gap-2 font-medium">
+              <CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+              <span>Heartful word accepted: <strong>{heartfulWord}</strong> 💜</span>
+            </div>
+
+            <div>
+              <label className="block text-xs font-black text-purple-200 uppercase mb-1.5 flex items-center gap-1.5 tracking-wider">
+                <Heart className="w-3.5 h-3.5 text-pink-400 fill-pink-400" />
+                <span>ENTER YOUR FAVORITE BTS MEMBER</span>
+              </label>
+              <input
+                type="text"
+                required
+                value={memberName}
+                onChange={(event) => {
+                  setMemberName(event.target.value);
+                  setErrorMsg('');
+                }}
+                placeholder="RM, Jin, SUGA, j-hope, Jimin, V, or Jung Kook"
+                className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-center font-bold text-purple-100 text-sm uppercase focus:outline-none focus:border-pink-400"
+                autoFocus
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 text-white font-black text-xs uppercase tracking-widest shadow-lg shadow-purple-600/40 hover:scale-[1.02] active:scale-98 transition-all flex items-center justify-center space-x-2"
+            >
+              <span>ENTER THE BTS WORLD</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </form>
+        )}
 
         <p className="text-center text-[10px] text-purple-400/60 font-medium">
           Independent fan-made website. Not affiliated with or endorsed by BTS or HYBE.
