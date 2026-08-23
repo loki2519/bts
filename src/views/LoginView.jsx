@@ -45,8 +45,9 @@ const LoginView = ({ onLoginSuccess }) => {
 
       <div className="relative z-10 w-full max-w-md bg-[#140524]/90 border border-purple-500/40 backdrop-blur-2xl rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6 animate-fade-in shadow-purple-950/90">
         <div className="text-center space-y-3">
-          <div className="w-16 h-16 mx-auto p-1 flex items-center justify-center">
-            <img src="/images/bts/logo.svg" alt="BTS Logo" className="w-full h-full object-contain filter drop-shadow-[0_0_12px_rgba(192,132,252,0.9)]" />
+          {/* Increased BTS Logo Size with NO glow filter */}
+          <div className="w-28 h-28 sm:w-32 sm:h-32 mx-auto flex items-center justify-center">
+            <img src="/images/bts/logo.svg" alt="BTS Logo" className="w-full h-full object-contain" />
           </div>
           <div>
             <h1 className="font-display font-black text-2xl sm:text-3xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-purple-200 via-purple-100 to-pink-300">BTS WORLD</h1>
@@ -56,54 +57,55 @@ const LoginView = ({ onLoginSuccess }) => {
 
         {errorMsg && <div className="p-3 rounded-xl bg-rose-950/80 border border-rose-500/50 text-xs text-rose-200 text-center font-medium">{errorMsg}</div>}
 
-        {step === 1 ? <form onSubmit={handleEmailSubmit} className="space-y-4">
-          <div>
-            <label className="block text-xs font-bold text-purple-200 uppercase mb-1 flex items-center gap-1.5">
-              <Mail className="w-3.5 h-3.5 text-pink-400" />
-              <span>Email Address</span>
-            </label>
-            <input
-              type="email"
-              required
-              value={email}
-              onChange={(event) => { setEmail(event.target.value); setErrorMsg(''); }}
-              placeholder="army@btsworld.com"
-              className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-purple-100 text-sm focus:outline-none focus:border-purple-400 font-medium"
-            />
-          </div>
+        {step === 1 ? (
+          <form onSubmit={handleEmailSubmit} className="space-y-4">
+            <div>
+              <label className="block text-xs font-bold text-purple-200 uppercase mb-1 flex items-center gap-1.5">
+                <Mail className="w-3.5 h-3.5 text-pink-400" />
+                <span>Email Address</span>
+              </label>
+              <input
+                type="email"
+                required
+                value={email}
+                onChange={(event) => { setEmail(event.target.value); setErrorMsg(''); }}
+                placeholder="army@btsworld.com"
+                className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-purple-100 text-sm focus:outline-none focus:border-purple-400 font-medium"
+              />
+            </div>
 
-          <button type="submit" className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-purple-600/40 hover:scale-[1.02] transition-all flex items-center justify-center space-x-2">
-            <span>ENTER THE BTS WORLD</span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
-        </form> : <form onSubmit={handleMemberSubmit} className="space-y-4">
-          <div className="p-3 rounded-xl bg-purple-900/50 border border-purple-500/30 text-xs text-purple-200 flex items-center gap-2 font-medium">
-            <CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-            <span>Email accepted: <strong>{email}</strong></span>
-          </div>
-          <div>
-            <label className="block text-xs font-bold text-purple-200 uppercase mb-1 flex items-center gap-1.5">
-              <Heart className="w-3.5 h-3.5 text-pink-400" />
-              <span>Enter Your Favorite BTS Member</span>
-            </label>
-            <input
-              type="text"
-              required
-              value={memberName}
-              onChange={(event) => { setMemberName(event.target.value); setErrorMsg(''); }}
-              placeholder="RM, Jin, SUGA, j-hope, Jimin, V, or Jung Kook"
-              className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-center font-bold text-purple-100 text-sm uppercase focus:outline-none focus:border-purple-400"
-              autoFocus
-            />
-          </div>
-          <button type="submit" className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-purple-600/40 hover:scale-[1.02] transition-all flex items-center justify-center space-x-2">
-            <span>ENTER THE BTS WORLD</span>
-            <ArrowRight className="w-4 h-4" />
-          </button>
-          <button type="button" onClick={() => { setStep(1); setErrorMsg(''); }} className="w-full text-[10px] font-bold text-purple-300 hover:text-white">CHANGE EMAIL</button>
-        </form>}
-
-        <div className="text-center text-[10px] text-purple-400/80 border-t border-purple-500/15 pt-4">Independent fan-made website. Not affiliated with or endorsed by BTS or HYBE.</div>
+            <button type="submit" className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-purple-600/40 hover:scale-[1.02] transition-all flex items-center justify-center space-x-2">
+              <span>ENTER THE BTS WORLD</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </form>
+        ) : (
+          <form onSubmit={handleMemberSubmit} className="space-y-4">
+            <div className="p-3 rounded-xl bg-purple-900/50 border border-purple-500/30 text-xs text-purple-200 flex items-center gap-2 font-medium">
+              <CheckCircle className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+              <span>Email accepted: <strong>{email}</strong></span>
+            </div>
+            <div>
+              <label className="block text-xs font-bold text-purple-200 uppercase mb-1 flex items-center gap-1.5">
+                <Heart className="w-3.5 h-3.5 text-pink-400" />
+                <span>Enter Your Favorite BTS Member</span>
+              </label>
+              <input
+                type="text"
+                required
+                value={memberName}
+                onChange={(event) => { setMemberName(event.target.value); setErrorMsg(''); }}
+                placeholder="RM, Jin, SUGA, j-hope, Jimin, V, or Jung Kook"
+                className="w-full px-4 py-3.5 rounded-xl bg-[#0f041a] border border-purple-500/40 text-center font-bold text-purple-100 text-sm uppercase focus:outline-none focus:border-purple-400"
+                autoFocus
+              />
+            </div>
+            <button type="submit" className="w-full py-3.5 rounded-xl bg-gradient-to-r from-purple-600 via-purple-500 to-pink-600 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-purple-600/40 hover:scale-[1.02] transition-all flex items-center justify-center space-x-2">
+              <span>ENTER THE BTS WORLD</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </form>
+        )}
       </div>
     </div>
   );

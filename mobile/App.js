@@ -12,8 +12,8 @@ import {
 import { WebView } from 'react-native-webview';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 
-// Dev server or production host URL
-const BTS_WORLD_URL = 'http://10.207.229.108:5173';
+// Standalone Production Cloud URL — Does not depend on localhost, Vite server, or computer IP
+const BTS_WORLD_URL = 'https://hilarious-praline-a9fc1f.netlify.app';
 
 export default function App() {
   const webViewRef = useRef(null);
@@ -31,8 +31,8 @@ export default function App() {
         return false;
       };
 
-      BackHandler.addEventListener('hardwareBackPress', onBackPress);
-      return () => BackHandler.removeEventListener('hardwareBackPress', onBackPress);
+      const subscription = BackHandler.addEventListener('hardwareBackPress', onBackPress);
+      return () => subscription.remove();
     }
   }, [canGoBack]);
 
