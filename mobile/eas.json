@@ -10,11 +10,19 @@
     "preview": {
       "android": {
         "buildType": "apk"
+      },
+      "ios": {
+        "simulator": false,
+        "distribution": "internal",
+        "resourceClass": "m-medium"
       }
     },
     "production": {
       "android": {
         "buildType": "apk"
+      },
+      "ios": {
+        "distribution": "store"
       }
     }
   },
