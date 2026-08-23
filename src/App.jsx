@@ -6,6 +6,7 @@ import WatermarkCanvas from './components/WatermarkCanvas';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import MusicPlayer from './components/MusicPlayer';
+import CompactMusicWidget from './components/CompactMusicWidget';
 import { ArrowLeft } from 'lucide-react';
 
 // All Views
@@ -32,15 +33,11 @@ import ClosingView from './views/ClosingView';
 const AppContent = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
-  const { stopMusicImmediately } = useMusic();
+  const { isWidgetActive, stopMusicImmediately } = useMusic();
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-
-    // Stop music immediately whenever leaving Music/Albums pages
-    if (activeSection !== 'albums' && activeSection !== 'music' && activeSection !== 'musicexperience') {
-      stopMusicImmediately();
-    }
+    // Music continues playing across pages when user navigates
   }, [activeSection]);
 
   const handleLoginSuccess = () => {
@@ -49,9 +46,12 @@ const AppContent = () => {
   };
 
   const handleReplay = () => {
+    stopMusicImmediately();
     setIsLoggedIn(false);
     setActiveSection('home');
   };
+
+  const showCompactWidget = isWidgetActive && activeSection !== 'albums';
 
   return (
     <div className="relative min-h-screen bg-[#0b0410] text-slate-100 flex flex-col justify-between selection:bg-purple-600 selection:text-white transition-colors duration-300">
@@ -69,12 +69,19 @@ const AppContent = () => {
           {/* Top Navigation */}
           <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
 
-          {/* Main Content Area */}
+          {/* Compact Music Widget - Fixed below header on non-album pages while music is active */}
+          {showCompactWidget && <CompactMusicWidget />}
+
+          {/* Main Content Area - Dynamically accounts for header and active music widget height */}
           <main
-            className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-2 sm:px-4 lg:px-6 pb-24"
-            style={{ paddingTop: 'calc(env(safe-area-inset-top) + 6.75rem)' }}
+            className="relative z-10 flex-1 max-w-7xl w-full mx-auto px-2 sm:px-4 lg:px-6 pb-24 transition-all duration-300"
+            style={{
+              paddingTop: showCompactWidget
+                ? 'calc(env(safe-area-inset-top) + 11.25rem)'
+                : 'calc(env(safe-area-inset-top) + 6.75rem)'
+            }}
           >
-            {/* Universal BACK TO HOME Button Positioned Cleanly Below Header at Extreme Left */}
+            {/* Universal BACK TO HOME Button Positioned Cleanly Below Header */}
             {activeSection !== 'home' && (
               <div className="mt-1 mb-6 flex items-center justify-start animate-fade-in">
                 <button
@@ -107,7 +114,7 @@ const AppContent = () => {
             {activeSection === 'closing' && <ClosingView onReplay={handleReplay} />}
           </main>
 
-          {/* Persistent Player Block - Rendered ONLY on Albums Page */}
+          {/* Full Bottom Player - Rendered on Albums Page */}
           {activeSection === 'albums' && <MusicPlayer />}
 
           {/* Universal Footer */}

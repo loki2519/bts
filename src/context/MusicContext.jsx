@@ -7,6 +7,7 @@ export const MusicProvider = ({ children }) => {
   const [queue, setQueue] = useState(FULL_PLAYLIST);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isWidgetActive, setIsWidgetActive] = useState(false); // Controls persistent compact widget visibility
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(240);
   const [volume, setVolume] = useState(80);
@@ -47,6 +48,7 @@ export const MusicProvider = ({ children }) => {
             onStateChange: (event) => {
               if (event.data === window.YT.PlayerState.PLAYING) {
                 setIsPlaying(true);
+                setIsWidgetActive(true);
                 setAudioError(null);
               } else if (event.data === window.YT.PlayerState.PAUSED) {
                 setIsPlaying(false);
@@ -114,6 +116,14 @@ export const MusicProvider = ({ children }) => {
     setIsPlaying(false);
   };
 
+  // Close/Dismiss the widget: stops music and removes widget
+  const dismissWidget = () => {
+    stopMusicImmediately();
+    setIsWidgetActive(false);
+    setCurrentTime(0);
+    setAudioError(null);
+  };
+
   const handleTrackEnded = () => {
     setLoopMode((currentLoop) => {
       if (currentLoop === 'track') {
@@ -145,6 +155,7 @@ export const MusicProvider = ({ children }) => {
     if (!track) return;
 
     setAudioError(null);
+    setIsWidgetActive(true);
     const targetVideoId = track.youtubeVideoId || track.youtubeId || findSongByTitle(track.title)?.youtubeVideoId || 'kXpOEzNZ8hQ';
 
     if (yt && typeof yt.loadVideoById === 'function') {
@@ -181,12 +192,14 @@ export const MusicProvider = ({ children }) => {
 
     setQueue(albumQueue);
     setCurrentIndex(trackIndex);
+    setIsWidgetActive(true);
     loadAndPlayTrack(albumQueue[trackIndex]);
   };
 
   const playSong = (index) => {
     if (index < 0 || index >= queue.length) return;
     setCurrentIndex(index);
+    setIsWidgetActive(true);
     loadAndPlayTrack(queue[index]);
   };
 
@@ -195,6 +208,7 @@ export const MusicProvider = ({ children }) => {
     if (!yt) return;
 
     setAudioError(null);
+    setIsWidgetActive(true);
 
     if (isPlaying) {
       if (typeof yt.pauseVideo === 'function') {
@@ -264,12 +278,14 @@ export const MusicProvider = ({ children }) => {
       currentAlbumName,
       currentAlbumCover,
       isPlaying,
+      isWidgetActive,
       currentTime,
       duration,
       volume,
       loopMode,
       audioError,
       stopMusicImmediately,
+      dismissWidget,
       playTrackFromAlbum,
       playSong,
       togglePlay,
